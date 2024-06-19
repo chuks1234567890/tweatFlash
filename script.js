@@ -131,10 +131,10 @@ function togvid(){
 const mnn=document.querySelector(".icon-nav")
 const preview_img=document.querySelector(".preview-img")
 function closePost(){
-    preview_img.style.display="none"
+    preview_img.classList.remove("prev-show")
 }
 function openPost(){
-    preview_img.style.display="block"
+    preview_img.classList.add("prev-show")
 }
 document.querySelector(".hhh").addEventListener("click",(e)=>{
     mnn.style.clipPath="circle(250px at 150px 150px)"
