@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5024f0cadb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <title>TweatFlash</title>
+</head>
+<body>
+    <div class="bottom-sheet" style="z-index: 21;">
+        <div class="sheet-overlay"></div>
+        <div class="content">
+          <div class="header">
+            <div class="close-icon ci1"><i class="fa-solid fa-angle-up"></i></div>
+            <div class="close-icon ci2" style="left: 0px;"><i class="fa-solid fa-close"></i></div>
+            <div class="drag-icon"><span></span></div>
+          </div>
+          <div class="body">
+             <div class="prompt-title">
+                <p>Comments</p>
+             </div>
+             <div class="prompt-content">
+                <ul>
+                    <li>
+                        <div class="comment">
+                            <div class="profile"></div>
+                            <div class="comment-text">
+                                <span style="display: flex;">Abraham Emmanuel<span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos hic voluptates a quas obcaecati, eveniet nemo, repudiandae in, at laudantium! Culpa delectus fugiat cumque magnam! Nam accusamus quibusdam esse!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="comment">
+                            <div class="profile"></div>
+                            <div class="comment-text">
+                                <span style="display: flex;">james pots<span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos hic voluptates a quas obcaecati, eveniet nemo, repudiandae in, at laudantium! Culpa delectus fugiat cumque magnam! Nam accusamus quibusdam esse!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="comment">
+                            <div class="profile"></div>
+                            <div class="comment-text">
+                                <span style="display: flex;">Paul Jessey<span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos hic voluptates a quas obcaecati, eveniet nemo, repudiandae in, at laudantium! Culpa delectus fugiat cumque magnam! Nam accusamus quibusdam esse!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="comment">
+                            <div class="profile"></div>
+                            <div class="comment-text">
+                                <span style="display: flex;">Augustine Godwin</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos hic voluptates a quas obcaecati, eveniet nemo, repudiandae in, at laudantium! Culpa delectus fugiat cumque magnam! Nam accusamus quibusdam esse!</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+             </div>
+             <div class="prompt-footer">
+                <div class="footer-content">
+                    <div class="react-comment"></div>
+                    <div class="add-comment">
+                        <div class="profile"></div>
+                        <div class="input">
+                            <input type="text" placeholder="Add Comment">
+
+                        </div>
+                    </div>
+                </div>
+             </div>
+          </div>
+        </div>
+    </div>
+    <nav class="navigation">
+        <div class="nav-content">
+          <div class="toggle-btn">
+            <i class='fa-solid fa-plus' style="font-size: 22px;"></i>
+          </div>
+          <!-- <span style="--i:1;">
+            <a href="#"><i class='bx bxs-home'></i></a>
+          </span>
+          <span style="--i:2;">
+            <a href="#"><i class='bx bxs-camera'></i></a>
+          </span> -->
+          <span style="--i:3;">
+            <a href="#"><i class='fa-solid fa-js' style="color: #fff;"></i></a>
+          </span>
+          <span style="--i:4;">
+            <a href="#"><i class='fa-solid fa-js' style="color: #fff;"></i></a>
+          </span>
+          <span style="--i:5;">
+            <a href="#"><i class='fa-solid fa-js' style="color: #fff;"></i></a>
+          </span>
+        </div>
+    </nav>
+    <div class="chat-icon" onclick="show_message()" style="color: #fff; font-size: 25px;">
+        <i class="uil uil-message"></i>
+    </div>
+    <div class="preview-img">
+        <div class="data-holder">
+            <div class="holder-head">
+                <div class="hold-a">
+                    
+                </div>
+                <div class="hold-b">
+                    <button><i class="fa-regular fa-flag"></i>&nbsp;&nbsp;Save</button>
+                    <button onclick="closePost()"><i class="fa-solid fa-close"></i>&nbsp;&nbsp; Close</button>
+                </div>
+            </div>
+            <img src="original-301382cd4144b5262020306d847cbc8a.png" alt="">
+            <div class="video-profile-holder" style="max-width: 500px;">
+                <div class="video-profile">
+                    <div class="photo"></div> 
+                    <div class="details">
+                        <p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel <span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></p>
+                        <p class="user2">@AbrahamEwela</p>
+                    </div>
+                </div>
+                <div class="text-post">
+                    <div class="post" style="color: var(--text2);">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit... <a href="#">more</a></p>
+                    </div>
+                    <div class="react">
+                        <ul>
+                            <li><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></li>
+                            <li onclick="showBottomSheet()"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></li>
+                            <li><i class="fa-solid fa-share i3" style="color: green;"></i>&nbsp;<p>450</p></li>
+                            <li><i class="fa-regular fa-flag i4" style="color: orange;"></i></li>
+                            <li><i class="fa-solid fa-upload i5" style="color: #2f80ed;"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="local-nav" style="z-index: 17;">
+            <ul>
+                <li onclick="show_home()"><i class="uil uil-estate" style="font-size: 22.3px;"></i></li>   
+                <li onclick="shnav()"><i class="fa-solid fa-bars"></i></li>
+                <li class="center" >
+                    <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
+                    <div class="sub-link">
+                        <span style="--i:3;">
+                            <i class='bx bxs-video-plus' style="color: #fff; font-size: 25px;"></i>
+                           
+                          </span>
+                          <span style="--i:4;">
+                            <i class="uil uil-plus-circle" style="color: #fff; font-size: 25px;"></i>
+                          </span>
+                          <span style="--i:5;">
+                            <i class="fa-regular fa-image" style="color: #fff;"></i>
+                          </span>
+                    </div>
+                </li>
+                <li onclick="show_explore()"><i class="fa-regular fa-compass"></i></li>
+                <li class="down" onclick="togvid()"><i class='bx bx-video' style="font-size: 29px;"></i></li>
+                <!-- <li><i class="fa-solid fa-users" style="font-size: 22px;"></i><div><p style="font-size: 14px;">Communities</p></div></li> -->
+                
+                
+            </ul>
+        </div>
+        
+        <nav class="hmmm">
+            <ul class="ul1">
+                <li class="logo"> <i class="fa-brands fa-twitter" style="color: #4070f4;"></i><p style="font-weight: bold;">TweatFlash</p></li>
+                <li class="active" onclick="show_home()"><i class="uil uil-estate"></i><div class="text"><p>Home</p></div></li>   
+
+                <li onclick="show_explore()"><i class="fa-regular fa-compass"></i><div class="text"><p>Explore</p></div></li>
+                <li class="down" onclick="togvid()"><i class="bx bx-video"></i><div class="text"><p>Trends</p></div></li>
+                <!-- <li><i class="fa-solid fa-users" style="font-size: 22px;"></i><div class="text"><p style="font-size: 14px;">Communities</p></div></li> -->
+                <li><i class="uil uil-message"></i><div class="text"><p>Messages</p></div></li>
+                <li><i class="fa-regular fa-flag"></i><div class="text"><p>Flags</p></div></li>
+                <li onclick="show_prof()"><i class="uil uil-user"></i><div class="text"><p>Profile</p></div></li>
+                <li onclick="shnav()"><i class="fa-solid fa-bars"></i><div class="text"><p>More</p></div></li>
+                <ul class="ul">
+                    <li><i class="uil uil-setting"></i><div class="text"><p>Settings</p></div></li>
+                    <li><i class="uil uil-signout"></i><div class="text"><p>SignOut</p></div></li>
+                </ul>
+                
+            </ul>
+        </nav>
+        <main>
+            <header style="display: none;">
+                <div class="search-bar">
+                    <div class="search-input"><i class="uil uil-search" style="color: var(--text2);"></i><input type="text" placeholder="Search everything....."></div>
+                </div>
+                <div class="quick-set">
+                    <ul>
+                        <!-- <li class="pro_photo"></li> -->
+                        <li style="border:1px solid var(--border-color2);"><i class="fa-regular fa-bell"><span></span></i></li>
+                        <li><i class="fa-regular fa-comment"><span></span></i></li>
+
+                        <li class="div"><div class="photo" style="height: 30px; width: 30px ; border: 1px solid var(--border-color2); background-image: url(profile.svg); border-radius: 50%; background-size: 100%; background-position: center;"></div></li>
+                    </ul>
+                    
+                </div>
+                
+            </header>
+            <div class="main-content" style="position: relative; overflow: hidden;">
+                <div class="section1" >
+                    
+                    <div class="main-posts" style="position: relative; display:flex; flex-wrap: wrap; justify-content: center;">
+                        
+                        <div class="mind" style="max-width: 600px;">
+                            <div class="part-a">
+                                <div class="photo"></div>
+                                <textarea type="text" placeholder="What is on your mind ..." style="font-family: font3;"></textarea>
+                                <!-- <button>Share post</button> -->
+                            </div>
+                            <div class="part-b">
+                                <div class="icons-b">
+                                    <span><i class="fa-regular fa-image" style="color: orange;"></i>&nbsp;<p>image/video</p></span>
+                                    <span><i class="uil uil-link-alt" style="color: #f4144c;"></i>&nbsp;<p>Attachment</p></span>
+                                    <span><i class="fa-solid fa-hashtag" style="color: green;"></i>&nbsp;<p>Hashmap</p></span>
+                                    <span><i class="fa-solid fa-at"></i>&nbsp;<p>Mention</p></span>
+                                </div>  
+                                <button>Post</button>
+                            </div>
+                        </div>
+                        
+                        <ul style="padding-top: 5px;" class="post-list">
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(2222.PNG);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder hhh"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i>
+                                        <div class="icon-nav">
+
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-solid fa-heart"     style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span" ><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hour ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Interested in crypto but find diving into it too time-consuming? Ethermail is the game-changer you've been waiting for! 🌟 It's the ultimate tool for those seeking simple, easy access to the Web3 space. 📧🔑 Trade, swap, buy, or message, all from one secure place with Ethermail.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="GO-CQnXbQAAQ7H_.jpg" alt="" onclick="openPost()">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@davidjames &nbsp; yesterday</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>How to deal with a climate activist blocking traffic 
+                                        <br> Classic 🤣🤣🤣
+                                    </p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="GO0UW1qWYAAhZqX.jpg" alt="" onclick="openPost()">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Were his actions justified?</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="Me24GYqa_400x400.jpg" alt="" onclick="openPost()">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post">
+                                    <p style="font-family: font3; padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat blanditiis, vitae dolor nesciunt dolore dolorem amet nostrum natus! Esse quam, nihil consectetur nobis distinctio optio nam iusto quas laudantium iste.</p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Just received this from a friend. The guy on the left took his blind friend or possibly his brother to a football match and talked him through the game.</p>
+                                </div>
+                                <div class="the-post">
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <video src="Dribbble_1K_Followers_∞.mp4" width="100%" autoplay style="border-radius: 10px;" onclick="openPost()"></video>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Rest😌</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="tweet.jpg" alt="" onclick="openPost()">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="web-store.webp" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                               
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post">
+                                    <img src="tweet2.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Rest😌</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="tweet.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="web-store.webp" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                               
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post">
+                                    <img src="tweet2.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Rest😌</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="tweet.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="web-store.webp" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                </div>
+                                <div class="the-post">
+                                    <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                               
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post">
+                                    <img src="tweet2.jpg" alt="">
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li class="firstpost" style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                </div>
+                                <div class="about">
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                </div>
+                                <div class="the-post" >
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                        </ul>
+
+
+                        
+                    </div>
+                    <div class="profile-page" style="display:none;">
+                        <div class="profile-header">
+                           
+                            <div class="cover-img">
+                                <button>Edit profile</button>
+                                <div class="mo"><i class="uil-search"></i></div>
+                                <div class="mo"><i class=" uil-ellipsis-v"></i></div>
+                            </div>
+                            <div class="profile-picture"></div>
+                        </div>
+                        <div class="user-data">
+                            <h3>Abraham Emmanuel <span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; transform: translateY(3px); display: inline-block;"></span></h3>
+                            <p>@ewelaabraham003</p>
+                            <div class="tracks">
+                                <p>22k Followers</p>
+                                <p>300 Following</p>
+                                <p>300 Friends</p>
+                            </div>
+                            <div class="bio">
+                                <p>Lorem ipsum dolor sit amet <a href="#">#consectetur</a> adipisicing elit. Minus,<a href="#">#voluptatum</a> hic numquam nisi velit iste mollitia amet molestias nostrum expedita eius. Explicabo itaque iste, <a href="#">#mollitia enim</a> dolorem illum nihil libero?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="users-nav">
+                            <div class="nav-width">
+                                <ul class="nav-flow">
+                                    <li style="background-color: #4070f4; color: #fff;">Trends</li>
+                                    <li>Replies</li>
+                                    <li>Articles</li>
+                                    <li>Media</li>
+                                    <li>Pinned</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-demacation">
+                            <div class="main-posts" style="position: relative; display:flex ; flex-wrap: wrap; justify-content: center;">
+                                <ul style="padding-top: 5px;" class="post-list">
+                                    <li class="firstpost" style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                        </div>
+                                        <div class="the-post" >
+                                            <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                            <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span" ><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                    </li>
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hour ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <p>Interested in crypto but find diving into it too time-consuming? Ethermail is the game-changer you've been waiting for! 🌟 It's the ultimate tool for those seeking simple, easy access to the Web3 space. 📧🔑 Trade, swap, buy, or message, all from one secure place with Ethermail.</p>
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="GO-CQnXbQAAQ7H_.jpg" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                    </li>
+                                    
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@davidjames &nbsp; yesterday</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <p>How to deal with a climate activist blocking traffic 
+                                                <br> Classic 🤣🤣🤣
+                                            </p>
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="GO0UW1qWYAAhZqX.jpg" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                    </li>
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                       
+                                    </li>
+                                    <li class="firstpost" style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                        </div>
+                                        <div class="the-post" >
+                                            <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                            <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                    </li>
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="tweet2.jpg" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                    </li>
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hours ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <p>Rest😌</p>
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="tweet.jpg" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messages-page" style="display: none;">
+                        <div class="messages-page-holder">
+                            <div class="message-header">
+
+                            </div>
+                            <div class="message-body">
+                                <div class="search-chat">
+                                    <span><i class="uli uil-search"></i></span><input type="text" placeholder="Search Chat">
+                                </div>
+                                <div class="chats">
+                                    <ul>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-page" style="display: none;">
+                        <div class="title-head">
+                            <!-- <h2 style="color: var(--text2); font-family: font; letter-spacing: 1.5px;">Explore</h2> -->
+                        </div>
+                        <div class="explore-header">
+                            <span><i class="uli uil-search"></i></span><input type="text" placeholder="Search.....">
+                        </div>
+                        <div class="hash-tags">
+                            <span>Trending Hashtags</span>
+                            <ul>
+                                <li>#elonmusk</li>
+                                <li>#mollitia</li>
+                                <li>#Tinibu</li>
+                                <li>#startup</li>
+                                <li>#Javascript</li>
+                                <li>#Programming</li>
+                                <li>#DSA</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="hash-tags">
+                            <span>Popular Accounts</span>
+                            <ul>
+                                <li><span class="pro"></span>&nbsp;Abraham&nbsp;Emmanuel</li>
+                                <li><span class="pro"></span>&nbsp;_zozo_app</li>
+                                <li><span class="pro"></span>&nbsp;_Dave&nbsp;Gray_</li>
+                                <li><span class="pro"></span>&nbsp;Live&nbsp;Server</li>
+                                <li><span class="pro"></span>&nbsp;Bybit</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="hash-tags">
+                            <span>More Hashtags</span>
+                            <ul>
+                                <li>#Superman</li>
+                                <li>#Windows</li>
+                                <li>#Iphone</li>
+                                <li>#startup</li>
+                                <li>#Democracy</li>
+                                <li>#Programming</li>
+                                <li>#Dangote</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="explore-posts" style="margin-top: 15px;">
+
+                            <h2 style="color: var(--text2); font-family: font; letter-spacing: 1px;">#Programming</h2>
+                            <div class="main-posts" style="position: relative; display:flex; flex-wrap: wrap; justify-content: center; padding: 0px;">
+                                <ul style="padding-top: 5px; padding: 0px;" class="post-list" >
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">_zozo_app</p></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hour ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <p>
+                                                This week hasn't been filled with ups... and downs <br><br>Lets start with the negatives... this week we lost two ZoZo pro suscribers knocking our MRR to $59 <br><br>On a more positive note , we obtained a ZoZo pro yearly Suscriber 🔥 <br><br> #Startup
+                                            </p>
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="coding-board.png" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2 style="color: var(--text2); font-family: font; letter-spacing: 1px;">#Zombie</h2>
+                            <div class="main-posts" style="position: relative; display:flex; flex-wrap: wrap; justify-content: center; padding: 0px;">
+                                <ul style="padding-top: 5px; padding: 0px;" class="post-list" >
+                                    <li style="z-index: 2;">
+                                        <div class="header">
+                                            <div class="profile-picture"></div>
+                                            <div class="bio">
+                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">_zozo_app</p></div>
+                                                <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hour ago</p>
+                                            </div>
+                                            <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i></span>
+                                        </div>
+                                        <div class="about">
+                                            <p>
+                                                Metropolis has never been filled with weak Zombies 🔥 <br><br> #Zombie
+                                            </p>
+                                        </div>
+                                        <div class="the-post">
+                                            <img src="zombi.jpg" alt="" onclick="openPost()">
+                                        </div>
+                                        <div class="reactions">
+                                            <div class="pa">
+                                                <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                                <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                                <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                                <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                                <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slide-videos">
+                        
+                    </div>
+                </div>
+                <div class="section2">
+                    <div class="access">
+                        <div class="parta">
+                            <p class="text2">Get unlimited access to everything on Orbit 🎉</p>
+                            <span class="text1" style="backdrop-filter: linear-gradient(red,blue);">Unlock premuium access and have full access to all limited access on orbit with a chicken change</span>
+                            <button>Get unlimited access</button>
+                        </div>
+                        <div class="partb">
+                           <!-- <span>✨</span> -->
+                        </div>
+                    </div>
+                    <div class="interest">
+                        <div><p style="padding: 5px;">People you might be interested </p></div>
+                        <div class="search">
+                            <i class="uil-search uil-search"></i>
+                            <input type="text" name="" id="" placeholder="Search Everybody">
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face5.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel <span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; transform: translateY(5px); display: inline-block;"></span></span>
+                                            <span>@ChristainBolt</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face3.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Dave Gray</span>
+                                            <span>@Ewela2006</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face4.jpg);"></div>
+                                        <div class="description">
+                                            <span>Elon Musk<span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; transform: translateY(5px); display: inline-block;"></span></span>
+                                            <br><span>@Jessey&001</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face5.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Paul Jessey</span>
+                                            <span>@ChristainBolt</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face3.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Sam Joseph</span>
+                                            <span>@Ewela2006</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face4.jpg);"></div>
+                                        <div class="description">
+<span class="p">destink Etiko <span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; transform: translateY(5px); display: inline-block;"></span></span>
+                                            <span>@Jessey&001</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face5.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@ChristainBolt</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face3.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@Ewela2006</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face4.jpg);"></div>
+                                        <div class="description">
+<span class="p">Abraham Emmanuel</span>
+                                            <span>@Jessey&001</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face5.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@ChristainBolt</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face3.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@Ewela2006</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face4.jpg);"></div>
+                                        <div class="description">
+<span class="p">Abraham Emmanuel</span>
+                                            <span>@Jessey&001</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face5.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@ChristainBolt</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face3.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@Ewela2006</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face4.jpg);"></div>
+                                        <div class="description">
+<span class="p">Abraham Emmanuel</span>
+                                            <span>@Jessey&001</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face5.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@ChristainBolt</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face3.jpg);"></div>
+                                        <div class="description">
+                                            <span class="p">Abraham Emmanuel</span>
+                                            <span>@Ewela2006</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-followers">
+                                    <div class="vim">
+                                        <div class="logo" style="background-image: url(face4.jpg);"></div>
+                                        <div class="description">
+<span class="p">Abraham Emmanuel</span>
+                                            <span>@Jessey&001</span>
+                                        </div>
+                                    </div>
+                                    <button>Follow</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="videos-page">
+                    <div class="video-holder">
+                        <video src="Dribbble_1K_Followers_∞.mp4" autoplay loop></video>
+                        <div class="controls">
+                            <span><i class="fa-solid fa-pause"></i></span><input type="range" name="range" width="100%" value="37">
+                            <div class="duration">
+                                00:00 / 04:00
+                            </div>
+                            <div class="fake-move">
+                                
+                            </div>
+                        </div>
+                        <div class="video-profile-holder">
+                            <div class="video-profile">
+                                <div class="photo"></div> 
+                                <div class="details">
+                                    <p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel <span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></p>
+                                    <p class="user2">@AbrahamEwela</p>
+                                </div>
+                            </div>
+                            <div class="text-post">
+                                <div class="post" style="color: var(--text2);">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit... <a href="#">more</a></p>
+                                </div>
+                                <div class="react">
+                                    <ul>
+                                        <li><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></li>
+                                        <li onclick="showBottomSheet()"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></li>
+                                        <li><i class="fa-solid fa-share i3" style="color: green;"></i>&nbsp;<p>450</p></li>
+                                        <li><i class="fa-regular fa-flag i4" style="color: orange;"></i></li>
+                                        <li><i class="fa-solid fa-upload i5" style="color: #2f80ed;"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-holder">
+                        <video src="Announce.mp4" autoplay loop></video>
+                        <div class="controls">
+                            <span><i class="fa-solid fa-pause"></i></span><input type="range" name="range" width="100%" value="37">
+                            <div class="duration">
+                                00:00 / 04:00
+                            </div>
+                            <div class="fake-move">
+                                
+                            </div>
+                        </div>
+                        <div class="video-profile-holder">
+                            <div class="video-profile">
+                                <div class="photo"></div> 
+                                <div class="details">
+                                    <p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel <span style="width: 20px; height: 20px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></p>
+                                    <p class="user2">@AbrahamEwela</p>
+                                </div>
+                            </div>
+                            <div class="text-post">
+                                <div class="post" style="color: var(--text2);">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit... <a href="#">more</a></p>
+                                </div>
+                                <div class="react">
+                                    <ul>
+                                        <li><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></li>
+                                        <li onclick="showBottomSheet()"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></li>
+                                        <li><i class="fa-solid fa-share i3" style="color: green;"></i>&nbsp;<p>450</p></li>
+                                        <li><i class="fa-regular fa-flag i4" style="color: orange;"></i></li>
+                                        <li><i class="fa-solid fa-upload i5" style="color: #2f80ed;"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+                <div class="nav_launch" style="z-index: 18;">
+            <div class="nav">
+                <section class="a">
+                    <div class="a-holder">
+                        <div class="pro_photo"></div>
+                        <p style="line-height: 26px;">Augustine Godwin</p>
+                        <span class="user-name">@Ewela2000</span>
+                        <div class="follow " style="padding-top: 10px;">
+                            <span class="user-name2"><span class="num">1.5k</span>&nbsp;followers </span>
+                            <span class="lftbr"> <span class="num">300</span>&nbsp;following</span>
+                        </div>
+                        <div class="theme">
+                            <i class="fa-solid fa-moon"></i>
+                        </div>
+                    </div>
+                </section>
+                <section class="b">
+                    <ul>
+                        <li class="active"><i class="uil uil-twitter"></i><div class="text"><p>Premium</p></div></li>   
+                        <li><i class="fa-solid fa-gamepad"></i><div class="text"><p>Entertaiment</p></div></li>
+                        <li class="down"><i class="fa-solid fa-video"></i><div class="text"><p>Trends</p></div></li>
+                        <li class="comm"><i class="fa-solid fa-users" style="font-size: 22px;"></i><div class="text"><p>Communities</p></div>
+                            <!-- <ul>
+                                <li>the Airbnb team</li>
+                            </ul> -->
+                        </li>
+                        <!-- <li><i class="uil uil-comments"></i><div class="text"><p>Messages</p></div></li> -->
+                        <li onclick="show_prof()"><i class="fa-regular fa-user"></i><div class="text"><p>Profile</p></div></li>
+                        <li><i class="uil uil-setting"></i><div class="text"><p>Settings</p></div></li>
+                        <li><i class="uil uil-signout"></i><div class="text"><p>SignOut</p></div></li>
+                    </ul>
+                </section>
+                <section class="a c">
+                        <div class="toggle-switch"></div>
+                        <div class="company"><i class="fa-brands fa-twitter" style="color: #4070f4;"></i></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    <script>
+        
+        document.querySelector(".nav_launch").addEventListener("click",(e)=>{
+            document.querySelector(".nav_launch").classList.remove('active_nav')
+        })
+        function shnav(){
+            document.querySelector(".nav_launch").classList.add('active_nav')
+        }
+        const text=document.querySelector(".filter-post");
+        const theme=document.querySelector(".theme")
+        theme.addEventListener("click",()=>{
+            document.body.classList.toggle("light")
+            if (document.querySelector(".theme i").classList.contains("fa-solid fa-moon")){
+                document.querySelector(".theme i").removeAttribute("class","fa-solid fa-moon")
+                document.querySelector(".theme i").classList.add("fa-solid fa-sun")
+            }else{
+                document.querySelector(".theme i").removeAttribute("class","fa-solid fa-sun")
+            }
+        })
+        const observer= new IntersectionObserver((entries)=>{
+            entries.forEach(entry=>{ 
+                if (!entry.isIntersecting){
+                    console.log('not intersecting')
+                }
+                else{
+                    
+                }
+            });
+            
+        });
+        observer.observe(document.querySelector(".user-data"));
+        document.querySelector("main .main-content").style.height='100%'
+
+        const buttons = document.querySelectorAll(".button");
+        buttons.forEach(button=>{
+            button.addEventListener("click", (e) => {
+            e.preventDefault;
+            button.classList.add("animate");
+            setTimeout(() => {
+                button.classList.remove("animate");
+            }, 600);
+        });
+        })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
