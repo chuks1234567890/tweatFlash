@@ -889,7 +889,8 @@ body.light .local-nav li:hover{
 }
 
 .main-posts .the-post{
-    width:90%;
+    max-width: 100%;
+    width:auto;
     overflow-y: hidden;
     height: auto;
     margin-left: auto;
@@ -901,8 +902,14 @@ body.light .local-nav li:hover{
     padding-bottom: 0px;
     color: var(--text2);
 }
+.main-posts .the-post:has(img){
+    background-color:transparent;
+}
 .the-post img{
-    width: 100%;
+
+    max-width: 100%;
+    /* max-height: 450px; */
+    /* height: auto; */
     border-radius: 10px;
 }
 .main-posts ul li{
@@ -962,7 +969,7 @@ header .quick-set li{
     background: transparent;
     transition: .3s;
 }
-.pa span:hover{
+.pa .span:hover{
     background: var(--border-color2);
 }
 .pa p{
@@ -1107,12 +1114,18 @@ textarea::-webkit-scrollbar{
 .icons-b span{
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 5px 7.5px;
     margin: 2px;
     /* background-color: #dfe9f5; */
     border-radius: 5px;
     font-family: font3;
+    transition: .3s;
+    border: 1px solid transparent;
 } 
+.icons-b span:hover{
+    background-color: var(--main-color2);
+    border: 1px solid var(--border-color2);
+}
 .icons-b span p{
     font-size: 15px;
     color: var(--text2);
