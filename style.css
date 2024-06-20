@@ -2152,8 +2152,9 @@ input[type=range]::-webkit-slider-runnable-track {
     height: 60px;
 }
 .data-holder img{
-    max-width: 700px;
+    max-width: 550px;
     width: 100%;    
+    max-height: auto;
 }
 
 .hold-b button{
