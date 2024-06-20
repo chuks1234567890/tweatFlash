@@ -139,3 +139,6 @@ function openPost(){
 document.querySelector(".hhh").addEventListener("click",(e)=>{
     mnn.style.clipPath="circle(250px at 150px 150px)"
 })
+setTimeout(()=>{
+    document.querySelector(".background-loader").style.display="none    "
+},2500)
