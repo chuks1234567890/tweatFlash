@@ -129,6 +129,7 @@ function togvid(){
     vid.classList.toggle('vid')
 }
 const mnn=document.querySelector(".icon-nav")
+const mmn2=document.querySelectorAll(`.icon-nav`)
 const preview_img=document.querySelector(".preview-img")
 function closePost(){
     preview_img.classList.remove("prev-show")
@@ -137,8 +138,14 @@ function openPost(){
     preview_img.classList.add("prev-show")
 }
 document.querySelector(".hhh").addEventListener("click",(e)=>{
-    mnn.style.clipPath="circle(250px at 150px 150px)"
+    mnn.classList.toggle('s')
 })
+const more_Item=document.querySelectorAll('.post-list .elipisis-holder')
+for (let i=1; i<more_Item.length; i++){
+    more_Item[i].addEventListener("click", ()=>{
+        mmn2[i].classList.toggle('s')
+    })
+}
 setTimeout(()=>{
-    document.querySelector(".background-loader").style.display="none    "
+    document.querySelector(".background-loader").style.display="none"
 },2500)
