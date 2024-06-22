@@ -100,28 +100,49 @@ function show_prof(){
     document.querySelector(".main-posts").style.display='none'
     document.querySelector(".messages-page").style.display='none'
     document.querySelector(".explore-page").style.display='none'
-    document.querySelector(".profile-page").style.display='block'
+    document.querySelector(".profile-page").style.display='none'
+    spinner_page.style.display="flex"
+    setTimeout(()=>{
+        spinner_page.style.display="none"
+        document.querySelector(".profile-page").style.display='block'
+    },1500)
     vid.classList.remove('vid')
 }
 function show_home(){
     document.querySelector(".profile-page").style.display='none'
     document.querySelector(".messages-page").style.display='none'
     document.querySelector(".explore-page").style.display='none'
-    document.querySelector(".main-posts").style.display='flex'
+    document.querySelector(".main-posts").style.display='none'
+    spinner_page.style.display="flex"
+    setTimeout(()=>{
+        spinner_page.style.display="none"
+        document.querySelector(".main-posts").style.display='flex'
+
+    },1500)
     vid.classList.remove('vid')
 }
 function show_message(){
     document.querySelector(".main-posts").style.display='none'
     document.querySelector(".profile-page").style.display='none'
     document.querySelector(".explore-page").style.display='none'
-    document.querySelector(".messages-page").style.display='block'
+    document.querySelector(".messages-page").style.display='none'
     vid.classList.remove('vid')
+    spinner_page.style.display="flex"
+    setTimeout(()=>{
+        spinner_page.style.display="none"
+        document.querySelector(".messages-page").style.display='block'
+    },1500)
 }
 function show_explore(){
     document.querySelector(".main-posts").style.display='none'
     document.querySelector(".profile-page").style.display='none'
     document.querySelector(".messages-page").style.display='none'
-    document.querySelector(".explore-page").style.display='block'
+    document.querySelector(".explore-page").style.display='none'
+    spinner_page.style.display="flex"
+    setTimeout(()=>{
+        spinner_page.style.display="none"
+        document.querySelector(".explore-page").style.display='block'
+    },1500)
     vid.classList.remove('vid')
 }
 const vid=document.querySelector(".videos-page")
@@ -131,6 +152,7 @@ function togvid(){
 const mnn=document.querySelector(".icon-nav")
 const mmn2=document.querySelectorAll(`.icon-nav`)
 const preview_img=document.querySelector(".preview-img")
+const spinner_page=document.querySelector(".spinner-page")
 function closePost(){
     preview_img.classList.remove("prev-show")
 }
@@ -149,3 +171,7 @@ for (let i=1; i<more_Item.length; i++){
 setTimeout(()=>{
     document.querySelector(".background-loader").style.display="none"
 },2500)
+setTimeout(()=>{
+    
+    document.querySelector(".main-posts").style.display='flex'
+},5000)

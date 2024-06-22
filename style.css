@@ -175,13 +175,15 @@ header{
     top: -70px;
     margin: auto;
     transition: .3s all;
-
+    backdrop-filter: saturate(180%) blur(20px);
+    background: hsla(0, 0%, 100%, 0);
 }
 body.light header{
-    background-color:rgba(225,225,225,.75);
+    backdrop-filter: saturate(180%) blur(5px);
+    background: hsla(0, 0%, 100%, .8);
 }
 .show-header{
-    
+    /* top: 0px; */
 }
 .search-bar{
     max-width: 400px;
@@ -2274,6 +2276,47 @@ body.light .preview-img .data-holder .video-profile-holder {
     background-color: #4070f4;
     box-shadow: 0px 0px 30px rgba(0,0,0,.2);
 }
+.spinner-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+    animation: rotate 1.5s linear infinite;
+    width: 50px;
+    height: 50px;
+  }
+  .spinner .path {
+    stroke: #4070f5;
+    stroke-linecap: round;
+    
+    animation: dash 1.5s ease-in-out infinite;
+  }
+  
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+  }
+  
 @media screen and (max-width:1300px){
     .main-content .section1{ 
         max-width: 500px;
