@@ -2294,8 +2294,10 @@ body.light .preview-img .data-holder .video-profile-holder {
     
     animation: dash 1.5s ease-in-out infinite;
   }
-  
-  
+  .user-d p{
+    display: flex;
+    align-items: center;
+  }
   @keyframes rotate {
     100% {
       transform: rotate(360deg);

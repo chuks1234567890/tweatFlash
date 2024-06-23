@@ -172,6 +172,6 @@ setTimeout(()=>{
     document.querySelector(".background-loader").style.display="none"
 },2500)
 setTimeout(()=>{
-    
+    spinner_page.style.display="none"
     document.querySelector(".main-posts").style.display='flex'
 },5000)
