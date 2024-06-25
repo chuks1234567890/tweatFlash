@@ -116,7 +116,7 @@
           </span>
         </div>
     </nav>
-    <div class="chat-icon" onclick="show_message()" style="color: #fff; font-size: 25px;">
+    <div class="chat-icon" onclick="show_message()" style="color: #fff; font-size: 25px; ">
         <i class="uil uil-message"></i>
     </div>
     <div class="preview-img">
@@ -156,10 +156,15 @@
             </div>
         </div>
     </div>
-    <div class="background-loader">
-        <div class="a">
-            <img src="logo2.svg" alt="" width="80px" style="border: none;">
+    <div class="background-loader" >
+        <div class="holder">
+
+            <div class="a" style="margin: auto;">
+                <img src="Capture-removebg-preview.png" alt="" width="80px" style="border: none;">
+            </div>
+            <p style="color: var(--text2); font-size: 20px; margin: 10px 0px; font-family: font3;">tweetFlash</p>
         </div>
+        <p style="color: var(--text2); position: absolute; bottom: 20px;">Made For Hummans</p>
     </div>
     <div class="container">
         <div class="local-nav" style="z-index: 17;">
@@ -231,6 +236,105 @@
                         </div>
                         
                         <ul style="padding-top: 5px;" class="post-list">
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">David Erimusk</p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
+                                            
+                                            <ul class="icon-nav-hold">
+                                                <li><span class="icon-hold"><i class="uil uil-user-plus" style="font-size: 20px;"></i></span>Follow @AEmmanuel2006 </li>
+                                                <li><span class="icon-hold"><i class="fa-solid fa-user-plus"></i></span>Add Friend</li>
+                                                <li><span class="icon-hold"><i class="uil uil-ban" style="font-size: 20px;"></i></span>Block @AEmmanuel2006 </li>
+                                                <li><span class="icon-hold"><svg fill="#4070f4" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-18jsvk2 r-1q142lx"><g><path d="M18 6.59V1.2L8.71 7H5.5C4.12 7 3 8.12 3 9.5v5C3 15.88 4.12 17 5.5 17h2.09l-2.3 2.29 1.42 1.42 15.5-15.5-1.42-1.42L18 6.59zm-8 8V8.55l6-3.75v3.79l-6 6zM5 9.5c0-.28.22-.5.5-.5H8v6H5.5c-.28 0-.5-.22-.5-.5v-5zm6.5 9.24l1.45-1.45L16 19.2V14l2 .02v8.78l-6.5-4.06z"></path></g></svg></span>Mute @AEmmanuel2006 </li>
+                                                <li><span class="icon-hold"><i style='font-size: 20px;' class="uil uil-question-circle"></i></span>Report Post</li>
+                                                <li><span class="icon-hold"><i class="fa-regular fa-flag"></i></span>Save Post</li>
+                                                <li><span class="icon-hold"><i class="uil uil-message"></i></span>Message Abraham Emmanuel</li>
+                                            </ul>
+                                            
+                                        </div></span>
+                                </div>
+                                <div class="about">
+                                    <p>Just launched this new redux boiler plate code <br><br>  Just plain and easy</p>
+                                </div>
+                                <div class="the-post"  onclick="openPost()" style="position: relative; display: flex; justify-content: center;" >
+                                    <div class="code">
+                                        <div class="code-head">
+
+                                        </div>
+                                        <div class="editor">
+                                            <div class="line">
+                                                <code style="color: skyblue;">import&nbsp;&nbsp;</code>{&nbsp;combineReducers&nbsp;}<code style="color: skyblue;">&nbsp;&nbsp;from&nbsp;&nbsp;</code><code style="color: goldenrod;">"reduxjs/toolkit"</code>
+                                                <code style="color: skyblue;">import&nbsp;&nbsp;</code>yourSlice<code style="color: skyblue;">&nbsp;&nbsp;from&nbsp;&nbsp;</code><code style="color: goldenrod;">"./yourSlice"</code>
+                                                <code style="color: skyblue;">import&nbsp;&nbsp;</code>anyOtherSlice<code style="color: skyblue;">&nbsp;&nbsp;from&nbsp;&nbsp;</code><code style="color: goldenrod;">"./anyOtherSlice"</code><br><br>
+                                                <code style="color: skyblue;">const&nbsp;&nbsp;</code>reducer&nbsp;&nbsp;<code style="color:  rgb(223, 123, 223);">=&nbsp;&nbsp;</code><code style="color: rgb(223, 123, 223);">combineReducers</code>({<br>
+                                                <code style="color:peachpuff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yourStateKeyName<code style="color:  rgb(223, 123, 223);">:&nbsp;&nbsp;</code></code>yourSlice,<br>
+                                                <code style="color:peachpuff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anyOthersliceKeyName<code style="color:  rgb(223, 123, 223);">:&nbsp;&nbsp;</code></code>anyOtherSlice
+                                                <br>)} <br>
+                                                <code style="color: skyblue;">export&nbsp;&nbsp;</code><code style="color: skyblue;">default&nbsp;&nbsp;</code>reducer
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
+                            <li style="z-index: 2;">
+                                <div class="header">
+                                    <div class="profile-picture"></div>
+                                    <div class="bio">
+                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">David Erimusk</p></div>
+                                        <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
+                                    </div>
+                                    <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
+                                            
+                                            <ul class="icon-nav-hold">
+                                                <li><span class="icon-hold"><i class="uil uil-user-plus" style="font-size: 20px;"></i></span>Follow @AEmmanuel2006 </li>
+                                                <li><span class="icon-hold"><i class="fa-solid fa-user-plus"></i></span>Add Friend</li>
+                                                <li><span class="icon-hold"><i class="uil uil-ban" style="font-size: 20px;"></i></span>Block @AEmmanuel2006 </li>
+                                                <li><span class="icon-hold"><svg fill="#4070f4" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-18jsvk2 r-1q142lx"><g><path d="M18 6.59V1.2L8.71 7H5.5C4.12 7 3 8.12 3 9.5v5C3 15.88 4.12 17 5.5 17h2.09l-2.3 2.29 1.42 1.42 15.5-15.5-1.42-1.42L18 6.59zm-8 8V8.55l6-3.75v3.79l-6 6zM5 9.5c0-.28.22-.5.5-.5H8v6H5.5c-.28 0-.5-.22-.5-.5v-5zm6.5 9.24l1.45-1.45L16 19.2V14l2 .02v8.78l-6.5-4.06z"></path></g></svg></span>Mute @AEmmanuel2006 </li>
+                                                <li><span class="icon-hold"><i style='font-size: 20px;' class="uil uil-question-circle"></i></span>Report Post</li>
+                                                <li><span class="icon-hold"><i class="fa-regular fa-flag"></i></span>Save Post</li>
+                                                <li><span class="icon-hold"><i class="uil uil-message"></i></span>Message Abraham Emmanuel</li>
+                                            </ul>
+                                            
+                                        </div></span>
+                                </div>
+                                <div class="about">
+                                    <p>Just received this from a friend. The guy on the left took his blind friend or possibly his brother to a football match and talked him through the game.</p>
+                                </div>
+                                <div class="the-post"  onclick="openPost()" style="position: relative; display: flex; justify-content: center;" >
+                                    <div class="controls-vid"></div>
+                                    <div class="play-btn"><i class="fa-solid fa-pause"></i></div>
+                                    <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
+                                    <video src="Dribbble_1K_Followers_∞.mp4" autoplay loop style="border-radius: 10px;"></video>
+                                    
+                                </div>
+                                <div class="reactions">
+                                    <div class="pa">
+                                        <button class="span button" style="position: relative;"><i class="fa-regular fa-heart" style="color: #f4144c;"></i>&nbsp;<p>2.5k</p></button>
+                                        <button class="span"><i class='bx bx-comment-dots' style='color:#2f80ed' ></i>&nbsp;<p>1.5k</p></button>
+                                        <button class="span"><i class="fa-solid fa-share i3"></i>&nbsp;<p>450</p></button>
+                                        <button class="span"><i class="fa-regular fa-flag i4"></i></button>
+                                        <button class="span"><i class="fa-solid fa-upload i5"></i></button>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </li>
                             <li class="firstpost" style="z-index: 2;">
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(2222.PNG);"></div>
@@ -259,7 +363,13 @@
                                     <p>What is missing Here ?</p>
                                 </div>
                                 <div class="the-post"  onclick="openPost()">
-                                    <img src="Screenshot_20240619-220025_1.png" alt="">
+                                    <div class="multiple-images">
+                                        <div class="first"></div>
+                                        <div class="second">
+                                            <div class="a" style="margin-bottom: 10px;"></div>
+                                            <div class="a"></div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">
@@ -460,7 +570,7 @@
                                         </div></span>
                                 </div>
                                 <div class="about">
-                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p>
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
@@ -505,9 +615,11 @@
                                 <div class="about">
                                     <p>Just received this from a friend. The guy on the left took his blind friend or possibly his brother to a football match and talked him through the game.</p>
                                 </div>
-                                <div class="the-post"  onclick="openPost()">
+                                <div class="the-post"  onclick="openPost()" style="position: relative; display: flex; justify-content: center;" >
+                                    <div class="controls-vid"></div>
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <video src="Dribbble_1K_Followers_∞.mp4" width="100%" autoplay style="border-radius: 10px;"></video>
+                                    <video src="Tinyframes DB1.mp4" width="100%" autoplay loop style="border-radius: 10px;"></video>
+                                    
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">

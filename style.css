@@ -926,13 +926,13 @@ body.light .local-nav li:hover{
 .main-posts .the-post:has(img){
     background-color:transparent;
 }
-.the-post img{
-    width: 100%;
-    /* max-width: 100%; */
-    /* max-height: 450px; */
-    /* height: auto; */
+.the-post img ,.the-post video{
+    width: auto;
+    max-width: 100%;
+    max-height: 470px;
     border-radius: 10px;
 }
+
 .main-posts ul li{
     border: 1.5px solid var(--border-color2);
     border-radius: 10px;
@@ -2273,8 +2273,11 @@ body.light .preview-img .data-holder .video-profile-holder {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4070f4;
+    background-color: #fff;
     box-shadow: 0px 0px 30px rgba(0,0,0,.2);
+}
+.a img{
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));
 }
 .spinner-page{
     width: 100%;
@@ -2318,7 +2321,71 @@ body.light .preview-img .data-holder .video-profile-holder {
       stroke-dashoffset: -124;
     }
   }
-  
+.main-posts .post-list li .controls-vid{
+    width: 90%;
+    height: 45px;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    margin: 0 auto;
+    z-index: 100;
+    bottom: 10px;
+}
+.main-posts .post-list li .play-btn{
+    position: absolute;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:rgba(0,0,0,.5);
+    top:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text2);
+}
+.multiple-images{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 5px;
+}
+.multiple-images .first ,.multiple-images .second{
+    width: 50%;
+    height: 100%;
+}
+.first{
+    border-radius: 7px;
+    background-color: #4070f4;
+    margin-right: 10px;
+}
+.second .a{
+    width: 100%;
+    height: 48%;
+    background-color: #4070f4;
+    border-radius: 7px;
+}
+.the-post .code{
+    width: 100%;
+    height: auto;
+    border: 1.7px solid var(--border-color2);
+    border-radius: inherit;
+}
+.code .code-head{
+    width: 100%;
+    height: 40px ;
+    background-color: var(--post-color2);
+    border-bottom: 1px solid var(--border-color2);
+}
+.code .editor{
+    width: 100%;
+    height: calc(100% - 40px);
+    padding: 15px;
+    overflow: scroll;
+}
+.editor .line{
+    width: fit-content;
+    word-wrap: none;
+}
 @media screen and (max-width:1300px){
     .main-content .section1{ 
         max-width: 500px;
