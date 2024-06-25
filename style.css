@@ -13,7 +13,7 @@
 }
 @font-face {
     font-family: font;
-    src: url(Poppins/Poppins-Regular.ttf);
+    src: url(helvetica-neue-5/HelveticaNeueMedium.otf);
 }
 @font-face {
     font-family: font2;
@@ -21,7 +21,7 @@
 }
 @font-face {
     font-family: font3;
-    src: url(Poppins/Poppins-Regular.ttf);
+    src: url(helvetica-neue-5/HelveticaNeueMedium.otf);
     font-size: 15px;
     font-weight: bold;
 }
@@ -2485,9 +2485,6 @@ svg{
     background-color: #0061FF;
     border: none;
     outline: none;
-}
-p.user{
-    font-size: 14px;
 }
 @media screen and (max-width:1300px){
     .main-content .section1{ 
