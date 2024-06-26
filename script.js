@@ -7,6 +7,15 @@ const dragIcon = bottomSheet.querySelector(".drag-icon");
 const close_icon=document.querySelector(".ci2")
 const open_icon=document.querySelector(".ci1")
 const nav_app =document.querySelector(".plus-icon")
+const point =document.querySelector(".point")
+point.addEventListener("click",(e)=>{
+    e.target.classList.toggle("nnn")
+    document.body.classList.toggle("switch")
+    document.querySelector("body.switch .background-loader").style="display:flex; transition:.4s ;visibility:visible; opacity:1;"
+    setTimeout(()=>{
+        document.querySelector("body.switch .background-loader").style="visibility:hidden; opacity:0;"
+    },2000)
+})
 // Global variables for tracking drag events
 let isDragging = false, startY, startHeight ,updateHeight;
 
@@ -169,7 +178,7 @@ for (let i=1; i<more_Item.length; i++){
     })
 }
 setTimeout(()=>{
-    document.querySelector(".background-loader").style.display="none"
+    document.querySelector(".background-loader").style="visibility:hidden; opacity:0;"
 },2500)
 setTimeout(()=>{
     spinner_page.style.display="none"

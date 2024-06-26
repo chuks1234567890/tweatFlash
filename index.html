@@ -11,7 +11,7 @@
     <title>TweatFlash</title>
 </head>
 <body>
-    <div class="bottom-sheet" style="z-index: 21;">
+    <div class="bottom-sheet" style="z-index: 21; ">
         <div class="sheet-overlay"></div>
         <div class="content">
           <div class="header">
@@ -78,28 +78,28 @@
           </div>
         </div>
     </div>
-    <div class="toggle-blogs">
-        <div class="circle">
-            <img src="Capture-removebg-preview.png" alt="" style="width: 80%;">
-        </div>
-        <div class="circle" style="background-color: transparent;">
-            <img src="Capture4-removebg-preview.png" alt="" style="width: 80%;">
-        </div>
-    </div>
+    
     <header class="hd">
-        <div class="search-bar">
-            <div class="search-input"><i class="uil uil-search" style="color: var(--text2);"></i><input type="text" placeholder="Search everything....."></div>
-        </div>
-        <div class="quick-set">
-            <ul>
-                <!-- <li class="pro_photo"></li> -->
-                <li style="border:1px solid var(--border-color2);"><i class="fa-regular fa-bell"><span></span></i></li>
-                <li><i class="fa-regular fa-comment"><span></span></i></li>
+        <div class="header-holder">
+            <div class="set1">
+                <div class="logo" onclick="shnav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="com">
 
-                <li class="div"><div class="photo" style="height: 30px; width: 30px ; border: 1px solid var(--border-color2); background-image: url(profile.svg); border-radius: 50%; background-size: 100%; background-position: center;"></div></li>
-            </ul>
-            
+                </div>
+                <p style="color: var(--text2);">TWEATFLASH</p>
+            </div>
+            <div class="search-holder">
+                <div class="search-bar">
+                    <div class="search-input"><i class="uil uil-search" style="color: var(--span2);"></i><input type="text" placeholder="Search everything....."></div>
+                    
+                </div>
+                <button class="add-something"><i class='bx bx-plus'></i></button>
+                <div class="usep"></div>
+            </div>
         </div>
+        
         
     </header>
     <nav class="navigation">
@@ -127,7 +127,7 @@
     <div class="chat-icon" onclick="show_message()" style="color: #fff; font-size: 25px; ">
         <i class="uil uil-message"></i>
     </div>
-    <div class="preview-img">
+    <div class="preview-img" style="top: 0px;">
         <div class="data-holder">
             <div class="holder-head">
                 <div class="hold-a">
@@ -143,13 +143,13 @@
                 <div class="video-profile">
                     <div class="photo"></div> 
                     <div class="details">
-                        <p class="user" style="font-family:font; font-weight: 500; color: #fff;">Abraham Emmanuel <span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px; margin-top: 3.5px;"></span></p>
+                        <p class="user" style=" font-weight: 500; color: #fff;">Abraham Emmanuel <span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px; margin-top: 3.5px;"></span></p>
                         <p class="user2" style="color: #888;">@Abrahamewela</p>
                     </div>
                 </div>
                 <div class="text-post">
                     <div class="post" style="color: var(--text2);">
-                        <p style="font-family: font3; font-size: 16px; color: #fff;">What is Missing Here ?</p>
+                        <p style=" font-size: 16px; color: #fff;">What is Missing Here ?</p>
                     </div>
                     <div class="react">
                         <ul>
@@ -170,15 +170,15 @@
             <div class="a" style="margin: auto;">
                 <img src="Capture-removebg-preview.png" alt="" width="80px" style="border: none;">
             </div>
-            <p style="color: var(--text2); font-size: 20px; margin: 10px 0px; font-family: font3;">tweetFlash</p>
+            <p style="color: var(--text2); font-size: 20px; margin: 10px 0px; ">tweetFlash</p>
         </div>
         <p style="color: var(--text2); position: absolute; bottom: 20px;">Made for Tech professionals</p>
     </div>
     <div class="container">
-        <div class="local-nav" style="z-index: 17;">
+        <div class="local-nav" style="z-index: 17; ">
             <ul>
-                <li onclick="show_home()"><i class="uil uil-estate" style="font-size: 22.3px;"></i></li>   
-                <li onclick="shnav()"><i class="fa-solid fa-bars"></i></li>
+                <li onclick="show_home()"><svg style="width: 25px; height:25px; fill:var(--blue); stroke:#4070f4;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.8272 3.83418C12.2134 3.16337 11.1487 3.1885 10.5673 3.88752L5 10.5807C5 10.5807 4.99999 10.5807 5 10.5807V19.5C5 20.3284 5.67157 21 6.5 21H8.28943C9.11786 21 9.78943 20.3284 9.78943 19.5V16.4889C9.78943 15.6605 10.461 14.9889 11.2894 14.9889H12.7105C13.5389 14.9889 14.2105 15.6605 14.2105 16.4889V19.5C14.2105 20.3284 14.8821 21 15.7105 21H17.5C18.3284 21 19 20.3284 19 19.5V10.5807C19 10.5807 19 10.5807 19 10.5807L12.8272 3.83418Z" fill="#4070f4"></path> </g></svg></li>   
+                <li onclick="show_explore()"><i class='bx bx-rocket' style="font-size: 20px;"></i></li>
                 <li class="center" >
                     <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
                     <div class="sub-link">
@@ -194,25 +194,25 @@
                           </span>
                     </div>
                 </li>
-                <li onclick="show_explore()"><i class="fa-regular fa-compass"></i></li>
-                <li class="down" onclick="togvid()"><i class='bx bx-video' style="font-size: 29px;"></i></li>
-                <!-- <li><i class="fa-solid fa-users" style="font-size: 22px;"></i><div><p style="font-size: 14px;">Communities</p></div></li> -->
+                
+                <li class="down" onclick="togvid()"><i class='bx bx-video' style="font-size: 25px;"></i></li>
+                <li class="toggle-tech"><div class="point"></div></li>
                 
                 
             </ul>
         </div>
         <nav class="hmmm">
             <ul class="ul1">
-                <li class="logo"><img src="Capture4-removebg-preview.png" alt="logo" width="30px" style="border: none;"><p style="font-weight: bold;">TweatFlash</p></li>
-                <li class="active" onclick="show_home()"><i class="uil uil-estate"></i><div class="text"><p>Home</p></div></li>   
+                
+                <li class="active" onclick="show_home()"><svg style="width: 25px; height:25px;" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.096"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18753 11.3788C4.03002 11.759 4 11.9533 4 12V20.0018C4 20.5529 4.44652 21 5 21H8V15C8 13.8954 8.89543 13 10 13H14C15.1046 13 16 13.8954 16 15V21H19C19.5535 21 20 20.5529 20 20.0018V12C20 11.9533 19.97 11.759 19.8125 11.3788C19.6662 11.0256 19.4443 10.5926 19.1547 10.1025C18.5764 9.1238 17.765 7.97999 16.8568 6.89018C15.9465 5.79788 14.9639 4.78969 14.0502 4.06454C13.5935 3.70204 13.1736 3.42608 12.8055 3.2444C12.429 3.05862 12.1641 3 12 3C11.8359 3 11.571 3.05862 11.1945 3.2444C10.8264 3.42608 10.4065 3.70204 9.94978 4.06454C9.03609 4.78969 8.05348 5.79788 7.14322 6.89018C6.23505 7.97999 5.42361 9.1238 4.8453 10.1025C4.55568 10.5926 4.33385 11.0256 4.18753 11.3788ZM10.3094 1.45091C10.8353 1.19138 11.4141 1 12 1C12.5859 1 13.1647 1.19138 13.6906 1.45091C14.2248 1.71454 14.7659 2.07921 15.2935 2.49796C16.3486 3.33531 17.4285 4.45212 18.3932 5.60982C19.3601 6.77001 20.2361 8.0012 20.8766 9.08502C21.1963 9.62614 21.4667 10.1462 21.6602 10.6134C21.8425 11.0535 22 11.5467 22 12V20.0018C22 21.6599 20.6557 23 19 23H16C14.8954 23 14 22.1046 14 21V15H10V21C10 22.1046 9.10457 23 8 23H5C3.34434 23 2 21.6599 2 20.0018V12C2 11.5467 2.15748 11.0535 2.33982 10.6134C2.53334 10.1462 2.80369 9.62614 3.12345 9.08502C3.76389 8.0012 4.63995 6.77001 5.60678 5.60982C6.57152 4.45212 7.65141 3.33531 8.70647 2.49796C9.2341 2.07921 9.77521 1.71454 10.3094 1.45091Z" fill="#fff"></path> </g></svg><div class="text"><p>Home</p></div></li>   
 
-                <li onclick="show_explore()"><i class="fa-regular fa-compass"></i><div class="text"><p>Explore</p></div></li>
+                <li onclick="show_explore()"><i class='bx bx-rocket'></i><div class="text"><p>Explore</p></div></li>
                 <li class="down" onclick="togvid()"><i class="bx bx-video"></i><div class="text"><p>Trends</p></div></li>
                 <!-- <li><i class="fa-solid fa-users" style="font-size: 22px;"></i><div class="text"><p style="font-size: 14px;">Communities</p></div></li> -->
                 <li><i class="uil uil-message"></i><div class="text"><p>Messages</p></div></li>
                 <li><i class="fa-regular fa-flag"></i><div class="text"><p>Flags</p></div></li>
                 <li onclick="show_prof()"><i class="uil uil-user"></i><div class="text"><p>Profile</p></div></li>
-                <li onclick="shnav()"><i class="fa-solid fa-bars"></i><div class="text"><p>More</p></div></li>
+                
                 <ul class="ul">
                     <li><i class="uil uil-setting"></i><div class="text"><p>Settings</p></div></li>
                     <li><i class="uil uil-signout"></i><div class="text"><p>SignOut</p></div></li>
@@ -229,7 +229,7 @@
                         <div class="mind" style="max-width: 600px;">
                             <div class="part-a">
                                 <div class="photo"></div>
-                                <textarea type="text" placeholder="What is on your mind ..." style="font-family: font3;"></textarea>
+                                <textarea type="text" placeholder="What is on your mind ..."></textarea>
                                 <!-- <button>Share post</button> -->
                             </div>
                             <div class="part-b">
@@ -248,7 +248,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">David Erimusk</p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">David Erimusk</p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -309,7 +309,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">David Erimusk</p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">David Erimusk</p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -352,7 +352,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(2222.PNG);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder hhh">
@@ -400,7 +400,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder">
@@ -443,7 +443,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@davidjames &nbsp; yesterday</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i>
@@ -486,7 +486,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -525,7 +525,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -546,7 +546,7 @@
                                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
                                 </div>
                                 <div class="the-post">
-                                    <p style="font-family: font3; padding: 10px;">Hey <br><a href="#">@TweatFlash</a> <br>,I am looking to <a href="#">#connect</a> with peoplw who are interested in: <br><br><br>🌐 Web developement <br>🎨 Frontend <br>🦍 Backend <br> 📊 Data science <br>🔒 Cyber security
+                                    <p style=" padding: 10px;">Hey <br><a href="#">@TweatFlash</a> <br>,I am looking to <a href="#">#connect</a> with peoplw who are interested in: <br><br><br>🌐 Web developement <br>🎨 Frontend <br>🦍 Backend <br> 📊 Data science <br>🔒 Cyber security
                                     </p>
                                 </div>
                                 <div class="reactions">
@@ -565,7 +565,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -587,7 +587,7 @@
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Hello Developers 👋<br><br>
+                                    <p style=" padding: 10px; color: var(--text2);">Hello Developers 👋<br><br>
 
                                         Drop your profile, let's get connected 🤝
                                         </p>
@@ -608,7 +608,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">David Erimusk</p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">David Erimusk</p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -650,7 +650,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -689,7 +689,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -711,7 +711,7 @@
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                    <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">
@@ -729,7 +729,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -768,7 +768,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -807,7 +807,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -848,7 +848,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -887,7 +887,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -926,7 +926,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -965,7 +965,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -987,7 +987,7 @@
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                    <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">
@@ -1005,7 +1005,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1045,7 +1045,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1084,7 +1084,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1106,7 +1106,7 @@
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                    <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">
@@ -1124,7 +1124,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1163,7 +1163,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1202,7 +1202,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1224,7 +1224,7 @@
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                    <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">
@@ -1242,7 +1242,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1282,7 +1282,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1321,7 +1321,7 @@
                                 <div class="header">
                                     <div class="profile-picture"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1360,7 +1360,7 @@
                                 <div class="header">
                                     <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                     <div class="bio">
-                                        <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                        <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                         <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                     </div>
                                     <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1382,7 +1382,7 @@
                                 </div>
                                 <div class="the-post" >
                                     <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                    <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                    <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                 </div>
                                 <div class="reactions">
                                     <div class="pa">
@@ -1442,7 +1442,7 @@
                                         <div class="header">
                                             <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1464,7 +1464,7 @@
                                         </div>
                                         <div class="the-post" >
                                             <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                            <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                            <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                         </div>
                                         <div class="reactions">
                                             <div class="pa">
@@ -1482,7 +1482,7 @@
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hrs ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1522,7 +1522,7 @@
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@davidjames &nbsp; yesterday</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1563,7 +1563,7 @@
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1602,7 +1602,7 @@
                                         <div class="header">
                                             <div class="profile-picture" style="background-image: url(Me24GYqa_400x400.jpg);"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Abraham Emmanuel</p><span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px;"></span></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">AEmmanuel2006&nbsp; 16 min ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1624,7 +1624,7 @@
                                         </div>
                                         <div class="the-post" >
                                             <!-- <img src="original-a33e7b9b50f44d58934cde150b164448.jpg" alt=""> -->
-                                            <p style="font-family: font3; padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
+                                            <p style=" padding: 10px; color: var(--text2);">Footage shows Dalia Dippolito reacting to the news that her husband has been murdered. However, the ‘hitman’ that she hired was actually an undercover cop </p>
                                         </div>
                                         <div class="reactions">
                                             <div class="pa">
@@ -1642,7 +1642,7 @@
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1681,7 +1681,7 @@
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">Elon Musk </p></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">Elon Musk </p></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@reactions24346 &nbsp; 23 hrs ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1743,7 +1743,7 @@
                     </div>
                     <div class="explore-page" style="display: none;">
                         <div class="title-head">
-                            <!-- <h2 style="color: var(--text2); font-family: font; letter-spacing: 1.5px;">Explore</h2> -->
+                            <!-- <h2 style="color: var(--text2);  letter-spacing: 1.5px;">Explore</h2> -->
                         </div>
                         <div class="explore-header">
                             <span><i class="uli uil-search"></i></span><input type="text" placeholder="Search.....">
@@ -1787,14 +1787,14 @@
                         </div>
                         <div class="explore-posts" style="margin-top: 15px;">
 
-                            <h2 style="color: var(--text2); font-family: font; letter-spacing: 1px;">#Programming</h2>
+                            <h2 style="color: var(--text2);  letter-spacing: 1px;">#Programming</h2>
                             <div class="main-posts" style="position: relative; display:flex; flex-wrap: wrap; justify-content: center; padding: 0px;">
                                 <ul style="padding-top: 5px; padding: 0px;" class="post-list" >
                                     <li style="z-index: 2;">
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">_zozo_app</p></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">_zozo_app</p></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hrs ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -1833,14 +1833,14 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h2 style="color: var(--text2); font-family: font; letter-spacing: 1px;">#Zombie</h2>
+                            <h2 style="color: var(--text2);  letter-spacing: 1px;">#Zombie</h2>
                             <div class="main-posts" style="position: relative; display:flex; flex-wrap: wrap; justify-content: center; padding: 0px;">
                                 <ul style="padding-top: 5px; padding: 0px;" class="post-list" >
                                     <li style="z-index: 2;">
                                         <div class="header">
                                             <div class="profile-picture"></div>
                                             <div class="bio">
-                                                <div class="user-d"><p class="user" style="font-family:font; font-weight: 500;">_zozo_app</p></div>
+                                                <div class="user-d"><p class="user" style=" font-weight: 500;">_zozo_app</p></div>
                                                 <p style="font-size: small; color: #888; line-height: 20px;">@elonspacex &nbsp; 1 hrs ago</p>
                                             </div>
                                             <span class="elipisis-holder"><i class="uil uil-ellipsis-v" style="color: var(--text2);"></i><div class="icon-nav">
@@ -2124,16 +2124,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="switch-to-tech" style="display: flex; align-items: center;">
-                        <div class="tech-img" style="">
-                            
-                        </div>
-                        <div class="content" style="padding-left: 10px; width: fit-content;">
-                            <p style="color: var(--text2); font-family: font3; font-weight: 100; font-size: 14px;">Unlock tweetFlash for tech professional <br>A place made for tech professionals to spread their wings without complication <br> <button></button></p>
-                        </div>
-                    </div>
+                    
                 </div>
-                <div class="videos-page">
+                <div class="videos-page" style="top: -55px;">
                     <div class="video-holder">
                         <video src="Dribbble_1K_Followers_∞.mp4" autoplay loop></video>
                         <div class="controls">
@@ -2149,7 +2142,7 @@
                             <div class="video-profile">
                                 <div class="photo"></div> 
                                 <div class="details">
-                                    <p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel <span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px; margin-top: 3.5px;"></span></p>
+                                    <p class="user" style=" font-weight: 500;">Abraham Emmanuel <span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px; margin-top: 3.5px;"></span></p>
                                     <p class="user2">@AbrahamEwela</p>
                                 </div>
                             </div>
@@ -2184,7 +2177,7 @@
                             <div class="video-profile">
                                 <div class="photo"></div> 
                                 <div class="details">
-                                    <p class="user" style="font-family:font; font-weight: 500;">Abraham Emmanuel <span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px; margin-top: 3.5px;"></span></p>
+                                    <p class="user" style=" font-weight: 500;">Abraham Emmanuel <span style="width: 15px; height: 15px; background-image: url(verified.svg); background-size: 100%; margin-left: 5px; margin-top: 3.5px;"></span></p>
                                     <p class="user2">@AbrahamEwela</p>
                                 </div>
                             </div>
@@ -2211,9 +2204,9 @@
             <div class="nav">
                 <section class="a">
                     <div class="a-holder">
-                        <div class="pro_photo"></div>
-                        <p style="line-height: 26px;">Augustine Godwin</p>
-                        <span class="user-name">@Ewela2000</span>
+                        <div class="pro_photo" style="background-image: url(face3.jpg);"></div>
+                        <p style="line-height: 26px; font-weight: 500;">Augustine Godwin</p>
+                        <span class="user-name" style="font-weight: 100; font-size: 13px;">@AEmmanuel2006</span>
                         <div class="follow " style="padding-top: 10px;">
                             <span class="user-name2"><span class="num">1.5k</span>&nbsp;followers </span>
                             <span class="lftbr"> <span class="num">300</span>&nbsp;following</span>
@@ -2226,9 +2219,9 @@
                 <section class="b">
                     <ul>
                         <li class="active"><i class="uil uil-twitter"></i><div class="text"><p>Premium</p></div></li>   
-                        <li><i class="fa-solid fa-gamepad"></i><div class="text"><p>Entertaiment</p></div></li>
+                        <li><i class="uil uil-football-american"></i><div class="text"><p>Entertaiment</p></div></li>
                         <li class="down"><i class="fa-solid fa-video"></i><div class="text"><p>Trends</p></div></li>
-                        <li class="comm"><i class="fa-solid fa-users" style="font-size: 22px;"></i><div class="text"><p>Communities</p></div>
+                        <li class="comm"><i class='bx bx-globe'></i><div class="text"><p>Communities</p></div>
                             <!-- <ul>
                                 <li>the Airbnb team</li>
                             </ul> -->
@@ -2268,10 +2261,10 @@
         const observer= new IntersectionObserver((entries)=>{
             entries.forEach(entry=>{ 
                 if (!entry.isIntersecting){
-                    document.querySelector("body .hd").classList.add("show-header")
+                    document.querySelector("body").classList.add("show-header")
                 }
                 else{
-                    document.querySelector("body .hd").classList.remove("show-header")
+                    document.querySelector("body").classList.remove("show-header")
                 }
             });
             
