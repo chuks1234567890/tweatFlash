@@ -224,26 +224,29 @@ body.show-header .container{
     background-color:var(--post-color2);
     display: flex;
     border: 1px solid var(--border-color2);
-    padding: 5px 10px; 
+    padding: 5px 7px; 
 }
 .search-holder{
-    height: 100%;
+    height: 95%;
     display: flex;
     align-items: center;
     width: auto;
     
 }
 .search-holder .add-something{
-    width: 40px;
-    height: 80%;
+    width: 30px;
+    height: 75%;
     margin-left: 5px;
     border-radius: 4px;
     background-color: transparent;
     color: var(--span2);
     border: none;
     border: 1.5px solid var(--border-color2);
-    font-size: 100%;
+    font-size: 21px;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .add-something:hover{
@@ -579,7 +582,7 @@ body .b li.active:hover{
 }
 .b .text{
     display: block;
-
+    font-weight: bold;
 }
 main .main-content{
     width: 100%;
@@ -640,7 +643,7 @@ body.light .access .parta span{
     padding-right: 10px;
 }
 .parta p,.interest p{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     color: var(--text2);
 }
@@ -654,9 +657,9 @@ body.light .access .parta span{
 }
 .parta button{
     display: block;
-    padding: 12.5px 20px;
+    padding: 10px 20px;
     font-size: 15px;
-    border-radius: 7px;
+    border-radius: 5px;
     border: none;
     margin: 10px 0px;
     background-color: #2f80ed;
@@ -1326,6 +1329,10 @@ body.light .pa p{
 }
 body.light .section2 .parta .text1 {
     color: #777;
+
+}
+.section2 .parta .text1{
+    font-size: small;
 }
 .profile-page{
     width: 100%;
@@ -2829,5 +2836,8 @@ svg{
     }
     .chat-icon{
         bottom: 75px;
+    }
+    .header-holder .set1 .ln{
+        display: none;
     }
 }
