@@ -247,9 +247,14 @@ body.show-header .container{
     justify-content: center;
     align-items: center;
 }
-
+.add-something svg g,.add-something path {
+    stroke: var(--span2);
+}
 .add-something:hover{
     background-color: var(--post-color2);
+}
+.ul1 li svg g,.ul1 li  path{
+    stroke: var(--blue);
 }
 .search-holder .usep{
    
