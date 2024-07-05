@@ -1,0 +1,234 @@
+{
+    "_id": "66324ad30f3ec31ac6433a89",
+    "user": {
+        "_id": "663236a80e50914a6d51ef34",
+        "name": "Mark Zugerberg",
+        "username": "mark12390",
+        "email": "augustinegodwin312@gmail.com",
+        "password": "$2a$10$RchhGbidWOCxEn6ahEO7J.CuunpgezeXC2wQ5S3x4akdoH1ox0Mla",
+        "followers": [],
+        "following": [
+            "663235bb765e7c9f9d58afe5"
+        ],
+        "accountType": "personal",
+        "pricingPlan": "basic",
+        "role": "user",
+        "groups": [],
+        "members": [],
+        "profileImage": "",
+        "coverImage": "",
+        "bio": "",
+        "link": "",
+        "likedPosts": [
+            "66323945006ac1ecd374309d",
+            "663238fe006ac1ecd374309a",
+            "6632395d006ac1ecd37430a0",
+            "66324ad30f3ec31ac6433a89"
+        ],
+        "likedComments": [],
+        "mutePosts": [],
+        "views": [],
+        "interests": [
+            "music"
+        ],
+        "blockedUsers": [],
+        "muteUsers": [],
+        "reposts": [],
+        "quotes": [],
+        "isVerified": true,
+        "isPersonalAcccountVerified": false,
+        "verificationToken": "",
+        "createdAt": "2024-05-01T12:33:44.365Z",
+        "updatedAt": "2024-05-01T15:03:25.945Z",
+        "__v": 1,
+        "verified": "2024-05-01T13:56:23.553Z"
+    },
+    "text": "SUP UNIVERSE",
+    "likes": [
+        "663236a80e50914a6d51ef34"
+    ],
+    "mutes": [],
+    "views": [],
+    "reposts": [],
+    "comments": [
+        {
+            "text": "ijk",
+            "user": "663236a80e50914a6d51ef34",
+            "views": [],
+            "likes": [],
+            "_id": "66324cd455654da543a2b98f"
+        },
+        {
+            "text": "what's up bro",
+            "user": "663236a80e50914a6d51ef34",
+            "views": [],
+            "likes": [],
+            "_id": "66324ceb55654da543a2b993"
+        },
+        {
+            "text": "yeah bro",
+            "user": "663236a80e50914a6d51ef34",
+            "views": [],
+            "likes": [],
+            "_id": "66324d0d55654da543a2b999"
+        }
+    ],
+    "replies": [
+        {
+            "text": "yeah bro",
+            "user": "663236a80e50914a6d51ef34",
+            "to": "663236a80e50914a6d51ef34",
+            "views": [],
+            "likes": [],
+            "_id": "66324d0d55654da543a2b998"
+        },
+        {
+            "text": "yeah bro",
+            "user": "663236a80e50914a6d51ef34",
+            "to": "663236a80e50914a6d51ef34",
+            "views": [],
+            "likes": [],
+            "_id": "66324d0d55654da543a2b998"
+        },
+        {
+            "text": "yeah bro",
+            "user": "663236a80e50914a6d51ef34",
+            "to": "663236a80e50914a6d51ef34",
+            "views": [],
+            "likes": [],
+            "_id": "66324d0d55654da543a2b998"
+        }
+    ],
+    "commentsUserProfile": [
+        {
+            "_id": "663236a80e50914a6d51ef34",
+            "name": "Mark Zugerberg",
+            "username": "mark12390",
+            "email": "augustinegodwin312@gmail.com",
+            "password": "$2a$10$RchhGbidWOCxEn6ahEO7J.CuunpgezeXC2wQ5S3x4akdoH1ox0Mla",
+            "followers": [],
+            "following": [
+                "663235bb765e7c9f9d58afe5"
+            ],
+            "accountType": "personal",
+            "pricingPlan": "basic",
+            "role": "user",
+            "groups": [],
+            "members": [],
+            "profileImage": "",
+            "coverImage": "",
+            "bio": "",
+            "link": "",
+            "likedPosts": [
+                "66323945006ac1ecd374309d",
+                "663238fe006ac1ecd374309a",
+                "6632395d006ac1ecd37430a0",
+                "66324ad30f3ec31ac6433a89"
+            ],
+            "likedComments": [],
+            "mutePosts": [],
+            "views": [],
+            "interests": [
+                "music"
+            ],
+            "blockedUsers": [],
+            "muteUsers": [],
+            "reposts": [],
+            "quotes": [],
+            "isVerified": true,
+            "isPersonalAcccountVerified": false,
+            "verificationToken": "",
+            "createdAt": "2024-05-01T12:33:44.365Z",
+            "updatedAt": "2024-05-01T15:03:25.945Z",
+            "__v": 1,
+            "verified": "2024-05-01T13:56:23.553Z"
+        },
+        {
+            "_id": "663236a80e50914a6d51ef34",
+            "name": "Mark Zugerberg",
+            "username": "mark12390",
+            "email": "augustinegodwin312@gmail.com",
+            "password": "$2a$10$RchhGbidWOCxEn6ahEO7J.CuunpgezeXC2wQ5S3x4akdoH1ox0Mla",
+            "followers": [],
+            "following": [
+                "663235bb765e7c9f9d58afe5"
+            ],
+            "accountType": "personal",
+            "pricingPlan": "basic",
+            "role": "user",
+            "groups": [],
+            "members": [],
+            "profileImage": "",
+            "coverImage": "",
+            "bio": "",
+            "link": "",
+            "likedPosts": [
+                "66323945006ac1ecd374309d",
+                "663238fe006ac1ecd374309a",
+                "6632395d006ac1ecd37430a0",
+                "66324ad30f3ec31ac6433a89"
+            ],
+            "likedComments": [],
+            "mutePosts": [],
+            "views": [],
+            "interests": [
+                "music"
+            ],
+            "blockedUsers": [],
+            "muteUsers": [],
+            "reposts": [],
+            "quotes": [],
+            "isVerified": true,
+            "isPersonalAcccountVerified": false,
+            "verificationToken": "",
+            "createdAt": "2024-05-01T12:33:44.365Z",
+            "updatedAt": "2024-05-01T15:03:25.945Z",
+            "__v": 1,
+            "verified": "2024-05-01T13:56:23.553Z"
+        },
+        {
+            "_id": "663236a80e50914a6d51ef34",
+            "name": "Mark Zugerberg",
+            "username": "mark12390",
+            "email": "augustinegodwin312@gmail.com",
+            "password": "$2a$10$RchhGbidWOCxEn6ahEO7J.CuunpgezeXC2wQ5S3x4akdoH1ox0Mla",
+            "followers": [],
+            "following": [
+                "663235bb765e7c9f9d58afe5"
+            ],
+            "accountType": "personal",
+            "pricingPlan": "basic",
+            "role": "user",
+            "groups": [],
+            "members": [],
+            "profileImage": "",
+            "coverImage": "",
+            "bio": "",
+            "link": "",
+            "likedPosts": [
+                "66323945006ac1ecd374309d",
+                "663238fe006ac1ecd374309a",
+                "6632395d006ac1ecd37430a0",
+                "66324ad30f3ec31ac6433a89"
+            ],
+            "likedComments": [],
+            "mutePosts": [],
+            "views": [],
+            "interests": [
+                "music"
+            ],
+            "blockedUsers": [],
+            "muteUsers": [],
+            "reposts": [],
+            "quotes": [],
+            "isVerified": true,
+            "isPersonalAcccountVerified": false,
+            "verificationToken": "",
+            "createdAt": "2024-05-01T12:33:44.365Z",
+            "updatedAt": "2024-05-01T15:03:25.945Z",
+            "__v": 1,
+            "verified": "2024-05-01T13:56:23.553Z"
+        }
+    ],
+    "repliesUserProfile": []
+}

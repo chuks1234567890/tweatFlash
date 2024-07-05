@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inclusive+Sans:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Concert+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
-    font-family: "League Spartan", sans-serif;
-    font-family: "Flow Circular", system-ui;
+    font-family: "Libre Franklin", sans-serif;
+    font-family: "Reddit Sans", sans-serif;
+    font-family: "Pangolin", cursive;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "Instrument Sans", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
+    /* font-family: "League Spartan", sans-serif;    */
+    /* font-family: "Flow Circular", system-ui; */
+    /* font-family: "Fredoka", sans-serif; */
+    /* font-family: "Kumbh Sans", sans-serif; */
     font-optical-sizing: auto;
     font-style: normal;
     list-style: none;
@@ -746,7 +763,7 @@ body.light .access .parta span{
 }
 .interest{
     width: 100%;
-    height: 600px;
+    height: 450px;
     background:var(--post-color2);
     margin-top: 10px;
     border-radius: 0px;
@@ -779,13 +796,13 @@ body.light .access .parta span{
     width: 100%;
     height: calc(100% - 80px);
     overflow-y: scroll;
-    padding: 10px;
+    padding: 5px 10px;
 }
 .interest li{
     width: 100%;
     height: auto;
     border-radius: 5px;
-    margin: 10px 0px;
+    margin: 0px 0px;
     padding: 5px 0px;
     border: 1px solid var(--border-color2);
     transition: .3s;
@@ -1233,9 +1250,9 @@ textarea::-webkit-scrollbar{
     color: #0061FF;
 }
 .part-b{
-    border-top: 1px solid var(--border-color2);
+    border-top: .5px solid var(--border-color2);
     margin-top: 10px;
-    padding: 5px 0px;
+    padding: 5px 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -1264,14 +1281,14 @@ textarea::-webkit-scrollbar{
     color: var(--text2);
 }
 .part-b button{
-    width: 120px;
+    width: 40px;
     background-color:#2f80ed;
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
     outline: none;
     border: none;
-    padding: 8px 0px;
+    padding: 0px 0px;
 }
 .interest{
     border-radius: 10px;
@@ -1281,7 +1298,7 @@ textarea::-webkit-scrollbar{
 }
 .interest .search{
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
     background-color: var(--main-color2);

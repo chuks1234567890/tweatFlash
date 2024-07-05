@@ -1,0 +1,16 @@
+The important class for display
+"display:flex ; > .d-flex"
+"display:block ; > .d-blk"
+"display:block ; > .d-iblk"
+
+classes for flex boxes
+"justify-content:center ; > jc-c"
+"justify-content:space-between ; > jc-b"
+"aligin-center; > ai-c
+
+flex boxes with display flex
+"dflex-jc"
+"dflex-jb"
+"dflex-ac"
+
+
