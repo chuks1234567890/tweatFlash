@@ -1669,7 +1669,8 @@ video , img{
 .comment-text span{
     color: var(--text2);
     padding: 5px 0px;
-    font-weight: bold;
+    font-size: .8em;
+    font-weight:600;
     display: block;
 }
 .comment-text p{
@@ -2008,12 +2009,14 @@ nav.open .nav-content span{
     color: var(--text2);
     display: flex;
     justify-content: space-between;
+    font-size: .9em;
 }
 p .mark{
    color: var(--span2);
 }
 .chats .content span{
     color: var(--span2);
+    font-size: .8em;
 }
 .search-chat span{
     color: var(--text2);
