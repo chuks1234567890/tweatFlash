@@ -32,7 +32,6 @@
 
 html ,body{
     height: 100%;
-    overscroll-behavior: none;
 }
 a{
     text-decoration: none;
@@ -47,7 +46,6 @@ body{
     background-color: #181b20;  
     background-color: var(--main-color2);
     transition: .5s all;
-    overscroll-behavior: none;
     z-index: -109;
 }
 .container{ 
