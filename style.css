@@ -32,7 +32,6 @@
 
 html ,body{
     height: 100%;
-    overscroll-behavior: none;
 }
 a{
     text-decoration: none;
@@ -42,12 +41,8 @@ a{
     font-weight: bold;
 }
 body{
-    background-color: #1a1d1f;
-    background-color: #000000;
-    background-color: #181b20;  
     background-color: var(--main-color2);
     transition: .5s all;
-    overscroll-behavior: none;
     z-index: -109;
 }
 .container{ 
@@ -59,7 +54,7 @@ body{
     transition: .3S;
 }
 :root{
-    --main-color2:#0b0b0b;
+    --main-color2:#000;
     /* --main-color2:#FFFFFF; */
     --border-color2:rgba(225,225,225,.08);
     /* --border-color2:rgba(0,0,0,.08); */
