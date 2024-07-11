@@ -1364,7 +1364,6 @@ body.light .section2 .parta .text1 {
 }
 .profile-page{
     width: 100%;
-    height: auto;
 }
 .profile-header{
     width: 100%;
@@ -2943,15 +2942,10 @@ main .main-content .section1{
 .main-posts{
     height: auto;
 }
-
+main{
+    height:fit-content;
+}
 .main-content{
-  max-height: 1000px;
-  height: 700px;
+    height: fit-content;
 
-}
-main .profile-pageP{
-    height: 100%;
-}
-.main-post1{
-    position: relative;
 }
