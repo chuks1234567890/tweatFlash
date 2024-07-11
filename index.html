@@ -2530,10 +2530,10 @@
         const observer= new IntersectionObserver((entries)=>{
             entries.forEach(entry=>{ 
                 if (!entry.isIntersecting){
-                    document.querySelector("body").classList.add("show-header")
+                    document.querySelector("header").classList.add("show-header")
                 }
                 else{
-                    document.querySelector("body").classList.remove("show-header")
+                    document.querySelector("header").classList.remove("show-header")
                 }
             });
             

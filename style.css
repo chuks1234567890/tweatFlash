@@ -185,6 +185,9 @@ header{
     background: hsla(0, 0%, 100%, 0);
     padding: 7.5px 15px;
 }
+.show-header{
+    transform: translateY(-60px);
+}
 .header-holder{
     max-width: 1360px;
     width: 100%;
@@ -2928,4 +2931,18 @@ svg{
     .header-holder .set1 .ln{
         display: none;
     }
+}
+
+main .main-content .section1{
+    height:fit-content;
+}
+.main-posts{
+    height: auto;
+}
+main{
+    height:fit-content;
+}
+.main-content{
+    height: fit-content;
+
 }
