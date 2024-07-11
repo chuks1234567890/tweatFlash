@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inclusive+Sans:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Concert+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -25,6 +26,8 @@
     /* font-family: "Flow Circular", system-ui; */
     /* font-family: "Fredoka", sans-serif; */
     /* font-family: "Kumbh Sans", sans-serif; */
+    font-family: "Urbanist", sans-serif;
+    font-family: "Balsamiq Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     list-style: none;
@@ -65,7 +68,7 @@ body{
     /* --text2:#000; */
     --span:#222;
     --span2:#999;
-    --post-color2:rgba(225,225,225,.02);
+    --post-color2:rgba(225,225,225,.05);
     --blue:#2f80ed;
     --icon-color:#2f80ed;
     /* --post-color2:#f9f9F9; */
@@ -1361,6 +1364,7 @@ body.light .section2 .parta .text1 {
 }
 .profile-page{
     width: 100%;
+    height: auto;
 }
 .profile-header{
     width: 100%;
@@ -2939,10 +2943,15 @@ main .main-content .section1{
 .main-posts{
     height: auto;
 }
-main{
-    height:fit-content;
-}
-.main-content{
-    height: fit-content;
 
+.main-content{
+  max-height: 1000px;
+  height: 700px;
+
+}
+main .profile-pageP{
+    height: 100%;
+}
+.main-post1{
+    position: relative;
 }
