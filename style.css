@@ -217,12 +217,12 @@ header{
 .set1 .com{
     height: 80%;
     width: 35px;
-    background-image: url(Capture-removebg-preview.png);
+    background-image: url(Capture4-removebg-preview.png);
     background-position: center;
-    background-size: 60%;
+    background-size: 90%;
     background-repeat: no-repeat;
     border-radius: 50%;
-    border: 1.5px solid var(--border-color2);
+    /* border: 1.5px solid var(--border-color2); */
     margin-left: 10px;
 }
 .set1 p{
@@ -257,30 +257,28 @@ body.show-header .container{
     
 }
 .search-holder .add-something{
-    width: 30px;
-    height: 75%;
+    width: 40px;
+    height: 40px;
     margin-left: 5px;
     border-radius: 4px;
     background-color: transparent;
-    color: var(--span2);
     border: none;
-    border: 1.5px solid var(--border-color2);
+    /* border: 1.5px solid var(--border-color2); */
     font-size: 21px;
     outline: none;
     display: none;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
-.add-something svg g,.add-something path {
-    stroke: var(--span2);
-    stroke: #4070f4;
+.add-something svg{
+    width: 25px;
+    height: 25px;
 }
 .add-something:hover{
     background-color: var(--post-color2);
 }
-.ul1 li svg g,.ul1 li  path{
-    stroke: var(--blue);
-}
+
 .search-holder .usep{
    
     width:35px;
@@ -2648,11 +2646,7 @@ body.light .tech-img{
     border: none;
     cursor: pointer;
 }
-svg{
-    stroke: var(--text2);
-    width:60%;
-    
-}
+
 .switch-to-tech button{
     width: 180px;
     height: 40px;
@@ -2816,11 +2810,18 @@ svg{
     }
 }
 @media screen and (max-width:580px){
+    .search-input{
+        background-color: transparent;
+        border: none;
+    }
     .search-input input{
         display: none;
     }
     .search-bar{
         width:43px;
+        background-color: transparent;
+        border: none;
+        display: none;
     }
 }
 @media screen and (max-width:480px) {

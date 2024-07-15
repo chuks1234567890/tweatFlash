@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>tweatFlash</title>
 </head> 
-<body>
+<body class="light">
     <div class="bottom-sheet" style="z-index: 21; ">
         <div class="sheet-overlay"></div>
         <div class="content">
@@ -116,15 +116,15 @@
                 <div class="com">
 
                 </div>
-                <p style="color: var(--text2);" class="ln">TWEATFLASH</p>
+                <p style="color: var(--text2);">TWEATFLASH</p>
             </div>
             <div class="search-holder">
                 <div class="search-bar">
-                    <div class="search-input"><i class="uil uil-search" style="color: var(--span2);"></i><input type="text" placeholder="Search everything....."></div>
+                    <div class="search-input"><i class="uil uil-search" style="color:#000;"></i><input type="text" placeholder="Search everything....."></div>
                     
                 </div>
                 <button class="add-something">
-                    <svg style="width: 20px; height:20px; stroke:var(--text2);" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6.43994V9.76994" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M12.02 2C8.34002 2 5.36002 4.98 5.36002 8.66V10.76C5.36002 11.44 5.08002 12.46 4.73002 13.04L3.46002 15.16C2.68002 16.47 3.22002 17.93 4.66002 18.41C9.44002 20 14.61 20 19.39 18.41C20.74 17.96 21.32 16.38 20.59 15.16L19.32 13.04C18.97 12.46 18.69 11.43 18.69 10.76V8.66C18.68 5 15.68 2 12.02 2Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M15.33 18.8201C15.33 20.6501 13.83 22.1501 12 22.1501C11.09 22.1501 10.25 21.7701 9.65004 21.1701C9.05004 20.5701 8.67004 19.7301 8.67004 18.8201" stroke-width="1.5" stroke-miterlimit="10"></path> </g></svg>
+                    <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <path class="st0" d="M27.8,23.2l-1.1-1.7c-1.9-2.8-2.9-6.1-2.9-9.5c0-3.6-2.4-6.5-5.6-7.5C17.9,3.6,17,3,16,3s-1.9,0.6-2.2,1.5 c-3.2,1-5.6,3.9-5.6,7.5c0,3.4-1,6.7-2.9,9.5l-1.1,1.7C3.7,24,4.2,25,5.2,25h21.6C27.8,25,28.3,24,27.8,23.2z"></path> <path class="st0" d="M20,25c0,2.2-1.8,4-4,4s-4-1.8-4-4"></path> </g></svg>
                 </button>
                 <div class="usep"></div>
 
@@ -209,7 +209,7 @@
         <div class="local-nav" style="z-index: 17; ">
             <ul>
                 <li onclick="show_home()"><svg width="25px" height="25px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#4070f4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#4070f4" d="M512 128 128 447.936V896h255.936V640H640v256h255.936V447.936z"></path></g></svg></li>   
-                <li onclick="show_explore()"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li onclick="show_explore()"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></li>
                 <li class="center" >
                     <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
                     <div class="sub-link">
@@ -226,8 +226,8 @@
                     </div>
                 </li>
                 
-                <li class="down" onclick="togvid()"><i class="fa-solid fa-play" style="font-size: 20px;"></i></li>
-                <li class="toggle-tech"><div class="point"></div></li>
+                <li class="down" onclick="togvid()"><svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9H9.5M21 9H9.5M9.5 9L14.5 4M14.5 4H17.8C18.8467 4 19.4044 4 19.8221 4.1779M14.5 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.07989 3 7.2V16.8C3 17.9201 3 18.4802 3.21799 18.908C3.40973 19.2843 3.71569 19.5903 4.09202 19.782C4.51984 20 5.07989 20 6.2 20H17.8C18.9201 20 19.4802 20 19.908 19.782C20.2843 19.5903 20.5903 19.2843 20.782 18.908C21 18.4802 21 17.9201 21 16.8V7.2C21 6.07989 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.88 4.20371 19.8514 4.19037 19.8221 4.1779M9 4L4 9M15 9.00015L19.8221 4.1779M15 14.5L10 17.5V11.5L15 14.5Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path> </g></svg></li>
+                <li><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=linear"> <g id="email"> <path id="vector" d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z" stroke="#000000" stroke-width="1.9440000000000002" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> <path id="vector_2" d="M18.7698 7.7688L13.2228 12.0551C12.5025 12.6116 11.4973 12.6116 10.777 12.0551L5.22998 7.7688" stroke="#000000" stroke-width="1.9440000000000002" stroke-linecap="round"></path> </g> </g> </g></svg></li>
                 
                 
             </ul>
@@ -237,13 +237,13 @@
                 
                 <li class="active" onclick="show_home()"><svg width="25px" height="25px" style="margin: 0px; width:25px;" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#fff" d="M512 128 128 447.936V896h255.936V640H640v256h255.936V447.936z"></path></g></svg><div class="text"><p>Home</p></div></li>   
 
-                <li onclick="show_explore()"><i class="fa-solid fa-magnifying-glass" style="font-size: 20px;"></i><div class="text"><p>Explore</p></div></li>
-                <li class="down" onclick="togvid()"><i class="bx bx-video"></i><div class="text"><p>Trends</p></div></li>
+                <li onclick="show_explore()"><svg style="width: 25px; height:25px; stroke:#000;" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><div class="text"><p>Explore</p></div></li>
+                <li class="down" onclick="togvid()"><svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9H9.5M21 9H9.5M9.5 9L14.5 4M14.5 4H17.8C18.8467 4 19.4044 4 19.8221 4.1779M14.5 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.07989 3 7.2V16.8C3 17.9201 3 18.4802 3.21799 18.908C3.40973 19.2843 3.71569 19.5903 4.09202 19.782C4.51984 20 5.07989 20 6.2 20H17.8C18.9201 20 19.4802 20 19.908 19.782C20.2843 19.5903 20.5903 19.2843 20.782 18.908C21 18.4802 21 17.9201 21 16.8V7.2C21 6.07989 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.88 4.20371 19.8514 4.19037 19.8221 4.1779M9 4L4 9M15 9.00015L19.8221 4.1779M15 14.5L10 17.5V11.5L15 14.5Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path> </g></svg><div class="text"><p>Trends</p></div></li>
                 <!-- <li><i class="fa-solid fa-users" style="font-size: 22px;"></i><div class="text"><p style="font-size: 14px;">Communities</p></div></li> -->
-                <li onclick="show_message()"><i class="uil uil-message"></i><div class="text"><p>Messages</p></div></li>
+                <li onclick="show_message()"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=linear"> <g id="email"> <path id="vector" d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z" stroke="#000000" stroke-width="1.9440000000000002" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> <path id="vector_2" d="M18.7698 7.7688L13.2228 12.0551C12.5025 12.6116 11.4973 12.6116 10.777 12.0551L5.22998 7.7688" stroke="#000000" stroke-width="1.9440000000000002" stroke-linecap="round"></path> </g> </g> </g></svg><div class="text"><p>Messages</p></div></li>
                 <li><i class="fa-regular fa-flag"></i><div class="text"><p>Flags</p></div></li>
-                <li><svg style="width: 25px; height:25px; stroke:var(--text2);" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6.43994V9.76994" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M12.02 2C8.34002 2 5.36002 4.98 5.36002 8.66V10.76C5.36002 11.44 5.08002 12.46 4.73002 13.04L3.46002 15.16C2.68002 16.47 3.22002 17.93 4.66002 18.41C9.44002 20 14.61 20 19.39 18.41C20.74 17.96 21.32 16.38 20.59 15.16L19.32 13.04C18.97 12.46 18.69 11.43 18.69 10.76V8.66C18.68 5 15.68 2 12.02 2Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M15.33 18.8201C15.33 20.6501 13.83 22.1501 12 22.1501C11.09 22.1501 10.25 21.7701 9.65004 21.1701C9.05004 20.5701 8.67004 19.7301 8.67004 18.8201" stroke-width="1.5" stroke-miterlimit="10"></path> </g></svg><div class="text"><p>Notification</p></div></li>
-                <li onclick="show_prof()"><i class="uil uil-user"></i><div class="text"><p>Profile</p></div></li>
+                <li><svg style="width: 25px; height:25px;" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <path class="st0" d="M27.8,23.2l-1.1-1.7c-1.9-2.8-2.9-6.1-2.9-9.5c0-3.6-2.4-6.5-5.6-7.5C17.9,3.6,17,3,16,3s-1.9,0.6-2.2,1.5 c-3.2,1-5.6,3.9-5.6,7.5c0,3.4-1,6.7-2.9,9.5l-1.1,1.7C3.7,24,4.2,25,5.2,25h21.6C27.8,25,28.3,24,27.8,23.2z"></path> <path class="st0" d="M20,25c0,2.2-1.8,4-4,4s-4-1.8-4-4"></path> </g></svg><div class="text"><p>Notification</p></div></li>
+                <li onclick="show_prof()"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="6" r="4" stroke="#000" stroke-width="1.5"></circle> <path d="M20 17.5C20 19.9853 20 22 12 22C4 22 4 19.9853 4 17.5C4 15.0147 7.58172 13 12 13C16.4183 13 20 15.0147 20 17.5Z" stroke="#000" stroke-width="1.5"></path> </g></svg><div class="text"><p>Profile</p></div></li>
                 
                 <ul class="ul">
                     <li><i class="uil uil-setting"></i><div class="text"><p>Settings</p></div></li>
@@ -2530,10 +2530,10 @@
         const observer= new IntersectionObserver((entries)=>{
             entries.forEach(entry=>{ 
                 if (!entry.isIntersecting){
-                    document.querySelector("header").classList.add("show-header")
+                    document.querySelector("header").classList.add("show-heade")
                 }
                 else{
-                    document.querySelector("header").classList.remove("show-header")
+                    document.querySelector("header").classList.remove("show-heade")
                 }
             });
             
