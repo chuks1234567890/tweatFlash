@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Concert+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Alef:wght@400;700&family=Assistant:wght@200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito:wght@400..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&family=Sniglet:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Alef:wght@400;700&family=Anek+Tamil:wght@100..800&family=Anek+Telugu:wght@100..800&family=Assistant:wght@200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Capriola&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito:wght@400..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&family=Inclusive+Sans:ital@0;1&family=McLaren&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=REM:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shippori+Antique&family=Sniglet:wght@400;800&family=Stylish&display=swap');
 @font-face {
@@ -20,9 +21,9 @@ html ,body{
 a{
     text-decoration: none;
     color: #4070f4;
-    
+    font-family: "Bricolage Grotesque", sans-serif;
     letter-spacing: .5px;
-    font-weight: 500;
+    font-weight: bold;
 }
 body{
     background-color: var(--main-color2);
@@ -142,6 +143,7 @@ body.light nav li:hover i ,body.light nav li:hover p{
 }
 .text p{
     font-size: 16px;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-weight: bold;
     padding-left: 20px;
     color: var(--text2);
@@ -207,7 +209,8 @@ header{
 }
 .set1 p{
     font-weight: bold;
-    margin-left: 10px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    margin-left: 5px;
 }
 body.light header{
     backdrop-filter: saturate(180%) blur(5px);
@@ -237,13 +240,13 @@ body.show-header .container{
     
 }
 .search-holder .add-something{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-left: 5px;
     border-radius: 4px;
     background-color: transparent;
     border: none;
-    /* border: 1.5px solid var(--border-color2); */
+    border: 1.5px solid var(--border-color2);
     font-size: 21px;
     outline: none;
     display: none;
@@ -252,8 +255,8 @@ body.show-header .container{
     border-radius: 50%;
 }
 .add-something svg{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 .add-something:hover{
     background-color: var(--post-color2);
@@ -262,10 +265,10 @@ body.show-header .container{
 .search-holder .usep{
    
     width:35px;
-    height: 90%;
+    height: 35px;
     border-radius: 50%;
     border: 1.5px solid var(--border-color2);
-    margin-left: 10px;
+    margin-left:5px;
     background-image: url(profile.svg);
     background-size: 110%;
     background-position: center;
@@ -457,18 +460,20 @@ main .main-content{
     padding: 10px;
     font-size: 17px;
     font-weight: bold;
+    font-family: "Bricolage Grotesque", sans-serif;
     position: relative;
 }
 .a-holder .lftbr{
     border-left: 2px solid var(--border-color2);
     padding-left: 10px;
-
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 .a-holder p{
     color: var(--text2);
 }
 .a-holder .user-name2{
     padding-right: 10px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 .a-holder span{
     font-size: 15px;
@@ -484,6 +489,7 @@ main .main-content{
 .a-holder .num{
     display: inline-block;
     color: var(--blue);
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 .nav_launch .nav .a .pro_photo{
     height: 50px;
@@ -502,6 +508,7 @@ main .main-content{
     
 }
 .nav_launch .nav .b li .text p{
+    font-family: "Bricolage Grotesque", sans-serif;
     font-weight: 500;
     font-size: 13px;
 }
@@ -589,6 +596,7 @@ body .b li.active:hover{
 }
 .b .text{
     display: block;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-weight: bold;
 }
 main .main-content{
@@ -651,6 +659,7 @@ body.light .access .parta span{
 }
 .parta p,.interest p{
     font-size: 15px;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-weight: bold;
     color: var(--text2);
 }
@@ -792,6 +801,7 @@ body.light .access .parta span{
 .interest .flex-followers .p{
    font-size: medium;
    display: block;
+   font-family: "Bricolage Grotesque", sans-serif;
    font-weight: 600;
    color:lightgrey;
    line-height: 20px;
@@ -1023,6 +1033,7 @@ body.light .local-nav li:hover{
 }
 .user-d p{
     font-weight: bold;
+    font-family: "Bricolage Grotesque", sans-serif;
     color: var(--text2);
 }
 
@@ -1402,8 +1413,12 @@ body.light .profile-header .cover-img{
 }
 .user-data h3{
     color: var(--text2);
+    font-family: "Bricolage Grotesque", sans-serif;
     /* font-weight: bold; */
     /* font-size:1.1em; */
+}
+h2{
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 .user-data p{
     color: var(--span2);
@@ -1650,7 +1665,8 @@ video , img{
     color: var(--text2);
     padding: 5px 0px;
     font-size: .8em;
-    font-weight:600;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight:bold;
     display: block;
 }
 .comment-text p{
@@ -2956,4 +2972,8 @@ main{
     display: flex;
     align-items: center;
     height: 100%;
+}
+@font-face {
+    font-family:youtube ;
+    src: url(AllTheWayToTheSun-o2O0.ttf);
 }
