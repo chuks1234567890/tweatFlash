@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Concert+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Alef:wght@400;700&family=Assistant:wght@200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito:wght@400..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&family=Sniglet:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Alef:wght@400;700&family=Anek+Tamil:wght@100..800&family=Anek+Telugu:wght@100..800&family=Assistant:wght@200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Capriola&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito:wght@400..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&family=Inclusive+Sans:ital@0;1&family=McLaren&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=REM:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shippori+Antique&family=Sniglet:wght@400;800&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face {
     font-family: Af;
-    src: url(font/);
+    src: url(MADEOkineSansPERSONALUSE-Regular.otf);
 }
 *{
     padding: 0;
@@ -12,7 +13,10 @@
     box-sizing: border-box;
     font-family: "Flow Circular", system-ui;
     font-family: "Sniglet", system-ui;
+    font-family: Af;
     list-style: none;
+    
+  font-family: "Rubik", sans-serif;
 }
 
 html ,body{
@@ -39,10 +43,10 @@ body{
     transition: .3S;
 }
 :root{
-    --main-color2:#000;
+    --main-color2:#0D0D0D;
     /* --main-color2:#FFFFFF; */
-    --border-color2:rgba(225,225,225,.08);
-    /* --border-color2:rgba(0,0,0,.08); */
+    /* --border-color2:transparent; */
+    --border-color2:rgba(0,0,0,.2);
     /* 0.02 */
     --c161a22:#161a22;
     --c161a22b:rgba(0,0,0,.1);
@@ -56,9 +60,9 @@ body{
     /* --post-color2:#f9f9F9; */
 }
 body.light{
-    --main-color2:#FFFFFF;
+    --main-color2:#FAFAFA;
     --border-color2:rgba(0,0,0,.08);
-    --post-color2:#f7F7F7;
+    --post-color2:#FFFFFF;
     --text2:#000;
     --icon-color:#000;
 }
@@ -1065,6 +1069,7 @@ body.light .local-nav li:hover{
     border: 1.5px solid var(--border-color2);
     border-radius: 10px;
     background-color: var(--post-color2);
+    outline: 3px solid rgba(0,0,0,.05);
     margin: 10px 0px;
     padding: 15px;
     max-width: 600px;
@@ -2976,4 +2981,23 @@ main{
 @font-face {
     font-family:youtube ;
     src: url(AllTheWayToTheSun-o2O0.ttf);
+}
+
+body svg path{
+    stroke: #999;
+}
+body.light svg path{
+    stroke: #000000;
+}
+.center .plus-icon{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1.5px solid var(--border-color2);
+    transform: rotateZ(0deg);
+}
+body .center .plus-icon{
+    border-color: #999;
+}
+body.light .center .plus-icon{
+    border-color: #000;
 }
