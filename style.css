@@ -60,7 +60,7 @@ body{
     /* --post-color2:#f9f9F9; */
 }
 body.light{
-    --main-color2:#FAFAFA;
+    --main-color2:#FCFCFC;
     --border-color2:rgba(0,0,0,.08);
     --post-color2:#FFFFFF;
     --text2:#000;
@@ -1067,13 +1067,21 @@ body.light .local-nav li:hover{
 
 .main-posts ul li{
     border: 1.5px solid var(--border-color2);
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: var(--post-color2);
-    outline: 3px solid rgba(0,0,0,.05);
+    outline: 3px solid rgba(0,0,0,.03);
     margin: 10px 0px;
     padding: 15px;
     max-width: 600px;
     width: 100%;
+}
+.bio p:nth-child(2){
+    background-color: var(--main-color2);
+    border: .1px solid var(--border-color2);
+    margin-top: 2.5px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0px 10px;
 }
 .section1 .channels ul li{
     border: none;
@@ -1112,12 +1120,12 @@ header .quick-set li{
     display: flex;
     align-items: center;
     margin: 0px 2.5px;
-    font-size: 17px;
+    font-size: small;
     color:#333;
     border: 1px solid var(--border-color2);
     padding: 0px 8px;
     border-radius: 20px;
-    background: transparent;
+    background: var(--main-color2);
     transition: .3s;
 }
 .pa span:hover{
