@@ -1055,7 +1055,6 @@ body.light .local-nav li:hover{
     border: 1.5px solid var(--border-color2);
     border-radius: 15px;
     background-color: var(--post-color2);
-    outline: 3px solid rgba(0,0,0,.03);
     margin: 10px 0px;
     padding: 15px;
     max-width: 600px;
@@ -1858,7 +1857,6 @@ nav.open .nav-content span{
     width: 25px;
     height: 25px;
     border-radius: 5px;
-    border: 1px solid var(--border-color2);
     position: relative;
     
 }
