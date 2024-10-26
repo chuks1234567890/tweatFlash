@@ -5,18 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face {
     font-family: Af;
-    src: url(MADEOkineSansPERSONALUSE-Regular.otf);
+    src: url(./coben/Coben\ Medium.otf);
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Flow Circular", system-ui;
-    font-family: "Sniglet", system-ui;
-    font-family: Af;
+    font-family: "Bricolage Grotesque", serif;
     list-style: none;
     
-  font-family: "Rubik", sans-serif;
 }
 
 html ,body{
@@ -26,7 +24,6 @@ a{
     text-decoration: none;
     color: #4070f4;
     letter-spacing: .5px;
-    font-weight: bold;
 }
 body{
     background-color: var(--main-color2);
