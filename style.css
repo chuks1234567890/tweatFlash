@@ -58,7 +58,7 @@ body{
 body.light{
     --main-color2:#FFFFFF;
     --border-color2:rgba(0,0,0,.08);
-    --post-color2:#F6F7F9;
+    --post-color2:rgba(225,225,225,.2);
     --text2:#000;
     --icon-color:#000;
 }
@@ -2095,8 +2095,7 @@ p .mark{
 }
 .hash-tags li{
     width:fit-content;
-    height: 40px;
-    border-radius: 10px;
+    border-radius: 40px;
     margin: 6px 2.5px;
     background-color: var(--post-color2);
     display: flex;
@@ -2104,7 +2103,8 @@ p .mark{
     align-items: center;
     color: var(--text2);
     font-size: 15px;
-    padding: 0px 15px;
+    padding: 7px 15px;
+    border: 1px solid var(--border-color2);
 }
 .hash-tags li .pro{
     width: 30px;
@@ -2935,7 +2935,7 @@ main{
     height:fit-content;
 }
 .main-content{
-    height: fit-content;
+    height: 100%;
 
 }
 .profile-page .post-demacation {
