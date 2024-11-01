@@ -1058,7 +1058,7 @@ body.light .local-nav li:hover{
 
 .main-posts ul li{
     border: .5px solid var(--border-color2);
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: var(--post-color2);
     margin: 10px 0px;
     padding: 15px;
@@ -1195,7 +1195,7 @@ header .quick-set li{
     background-color: var(--post-color2);
     margin: 15px;
     margin-bottom: 0px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     padding-bottom: 5px;
     border: 1px solid var(--border-color2);
@@ -1922,7 +1922,7 @@ nav.open .nav-content span{
 }
 .post-list .icon-nav-hold li:hover .icon-hold{
     background-color: var(--main-color2);
-    border: 1px solid var(--border-color2);
+    border: .5px solid var(--border-color2);
 }
 .icon-nav.s{
     height:340px;
@@ -2873,12 +2873,7 @@ body.light .tech-img{
         display:flex;
     }
     .main-posts ul li{
-        
-        border-radius: 10px;
-        
         margin: 10px 0px;
-        
-        
         padding: 10px 10px;
     }
     .container {
@@ -2965,7 +2960,7 @@ main{
 .pro-li{
     width: 100%;
     height: 7px;
-    border-radius: 7px;
+    border-radius: 8px;
     background-color: rgba(0,0,0,.08);
 }
 .dura{
