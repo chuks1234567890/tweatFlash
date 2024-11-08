@@ -42,7 +42,7 @@ body{
     --main-color2:#0D0D0D;
     /* --main-color2:#FFFFFF; */
     /* --border-color2:transparent; */
-    --border-color2:rgba(0,0,0,.2);
+    --border-color2:rgba(225,225,225,.1);
     /* 0.02 */
     --c161a22:#161a22;
     --c161a22b:rgba(0,0,0,.1);
@@ -50,15 +50,15 @@ body{
     /* --text2:#000; */
     --span:#222;
     --span2:#999;
-    --post-color2:rgba(225,225,225,.05);
+    --post-color2:grey;
     --blue:#2f80ed;
     --icon-color:#2f80ed;
     /* --post-color2:#f9f9F9; */
 }
 body.light{
-    --main-color2:#FFFFFF;
+    --main-color2:#ffffff;
     --border-color2:rgba(0,0,0,.08);
-    --post-color2:rgba(225,225,225,.2);
+    --post-color2:rgba(0, 0, 0, .025);
     --text2:#000;
     --icon-color:#000;
 }
