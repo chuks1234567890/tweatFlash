@@ -58,7 +58,7 @@ body{
 body.light{
     --main-color2:#ffffff;
     --border-color2:rgba(0,0,0,.08);
-    --post-color2:rgba(0, 0, 0, .025);
+    --post-color2:#f6f8fa;
     --text2:#000;
     --icon-color:#000;
 }
