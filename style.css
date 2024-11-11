@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face {
     font-family: Af;
-    src: url(./coben/Coben\ Medium.otf);
+    src: url(./MADEOkineSansPERSONALUSE-Regular.otf);
 }
 *{
     padding: 0;
@@ -42,7 +42,7 @@ body{
     --main-color2:#0D0D0D;
     /* --main-color2:#FFFFFF; */
     /* --border-color2:transparent; */
-    --border-color2:rgba(225,225,225,.1);
+    --border-color2:rgba(225,225,225,.01);
     /* 0.02 */
     --c161a22:#161a22;
     --c161a22b:rgba(0,0,0,.1);
@@ -50,7 +50,7 @@ body{
     /* --text2:#000; */
     --span:#222;
     --span2:#999;
-    --post-color2:grey;
+    --post-color2:#111;
     --blue:#2f80ed;
     --icon-color:#2f80ed;
     /* --post-color2:#f9f9F9; */
@@ -62,6 +62,7 @@ body.light{
     --text2:#000;
     --icon-color:#000;
 }
+
 nav{
     width: 220px;
     position: relative;
@@ -71,7 +72,7 @@ nav{
 nav ul li{
     width: 100%;
     height: 45px;
-    border-radius: 5px;
+    border-radius: 30px;
     /* background-color: rgba(225,225,225,.2); */
     margin: 8px 0px;
     color:#000;
@@ -200,16 +201,27 @@ header{
     padding: 5px 10px;
 
 }
+.diddy{
+    height: 90%;
+    width:auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border-color2);
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: var(--post-color2);
+}
 .set1 .com{
-    height: 80%;
-    width: 35px;
+    height: 90%;
+    width: 25px;
     background-image: url(Capture4-removebg-preview.png);
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
     border-radius: 50%;
     /* border: 1.5px solid var(--border-color2); */
-    margin-left: 10px;
+    margin-left: 7px;
 }
 .set1 p{
     font-weight: bold;
@@ -926,7 +938,7 @@ body.light .local-nav{
     width: 25%;
     height: 50%;
     position: relative;
-    border-radius: 20px;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -939,11 +951,7 @@ body.light .local-nav{
    color: var(--text2);
    transition: .3s;
 }
-.local-nav li:hover{
-    color:#2f80ed;
-    
-   
- }
+
 .local-nav ul .toggle-tech{
     /* background-color: #0061FF; */
     height: 65%;
@@ -976,16 +984,6 @@ body.light .local-nav{
 }
 .point.nnn{
     transform: translateX( 100%);
-}
-body.light .local-nav li:hover{
-    color:#2f80ed;
-    background-color: #dfe9f5;
- }
- body.switch .background-loader{
-    display: flex;
- }
-.local-nav ul li::before{
-    
 }
 .main-posts ul li{
     z-index: -2;
@@ -1057,12 +1055,13 @@ body.light .local-nav li:hover{
 }
 
 .main-posts ul li{
-    border: .5px solid var(--border-color2);
+    border: .75px solid var(--border-color2);
     border-radius: 20px;
     background-color: var(--post-color2);
     margin: 10px 0px;
     padding: 15px;
     max-width: 600px;
+    
     width: 100%;
 }
 .bio p:nth-child(2){
@@ -2990,4 +2989,9 @@ body .center .plus-icon{
 }
 body.light .center .plus-icon{
     border-color: #000;
+}
+.bsd{
+    background-color: #0061FF;
+    height: 40px !important;
+    border: 5px;
 }
