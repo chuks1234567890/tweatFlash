@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5024f0cadb.js" crossorigin="anonymous"></script>
@@ -116,10 +117,12 @@
                 <div class="logo" onclick="shnav()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-                <div class="com">
+                <div class="diddy">
+                    <div class="com">
 
+                    </div>
+                    <p style="color: var(--text2); font-family: Af; font-weight: bolder; letter-spacing: 1px; font-size:small;">tweatFlash</p>
                 </div>
-                <p style="color: var(--text2); font-family: youtube; letter-spacing: 1px; text-transform: none;">tweatFlash</p>
             </div>
             <div class="search-holder">
                 <div class="search-bar">
@@ -213,20 +216,8 @@
             <ul>
                 <li onclick="show_home()"><svg width="25px" height="25px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#4070f4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#4070f4" d="M512 128 128 447.936V896h255.936V640H640v256h255.936V447.936z"></path></g></svg></li>   
                 <li onclick="show_explore()"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 12H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12ZM16 8L9.5 9.5L8 16L14.5 14.5L16 8Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></li>
-                <li class="center" >
-                    <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
-                    <div class="sub-link">
-                        <span style="--i:3;">
-                            <i class='bx bx-video-plus' style="color: #fff; font-size: 25px;"></i>
-                           
-                          </span>
-                          <span style="--i:4;">
-                            <i class="uil uil-plus-circle" style="color: #fff; font-size: 25px;"></i>
-                          </span>
-                          <span style="--i:5;">
-                            <i class="fa-regular fa-image" style="color: #fff;"></i>
-                          </span>
-                    </div>
+                <li class="bsd">
+                    
                 </li>
                 
                 <li class="down" onclick="togvid()"><svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9H9.5M21 9H9.5M9.5 9L14.5 4M14.5 4H17.8C18.8467 4 19.4044 4 19.8221 4.1779M14.5 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.07989 3 7.2V16.8C3 17.9201 3 18.4802 3.21799 18.908C3.40973 19.2843 3.71569 19.5903 4.09202 19.782C4.51984 20 5.07989 20 6.2 20H17.8C18.9201 20 19.4802 20 19.908 19.782C20.2843 19.5903 20.5903 19.2843 20.782 18.908C21 18.4802 21 17.9201 21 16.8V7.2C21 6.07989 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.88 4.20371 19.8514 4.19037 19.8221 4.1779M9 4L4 9M15 9.00015L19.8221 4.1779M15 14.5L10 17.5V11.5L15 14.5Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path> </g></svg></li>
@@ -244,7 +235,7 @@
                 <li class="down" onclick="togvid()"><svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9H9.5M21 9H9.5M9.5 9L14.5 4M14.5 4H17.8C18.8467 4 19.4044 4 19.8221 4.1779M14.5 4H6.2C5.07989 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.07989 3 7.2V16.8C3 17.9201 3 18.4802 3.21799 18.908C3.40973 19.2843 3.71569 19.5903 4.09202 19.782C4.51984 20 5.07989 20 6.2 20H17.8C18.9201 20 19.4802 20 19.908 19.782C20.2843 19.5903 20.5903 19.2843 20.782 18.908C21 18.4802 21 17.9201 21 16.8V7.2C21 6.07989 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.88 4.20371 19.8514 4.19037 19.8221 4.1779M9 4L4 9M15 9.00015L19.8221 4.1779M15 14.5L10 17.5V11.5L15 14.5Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path> </g></svg><div class="text"><p>Trends</p></div></li>
                 <!-- <li><i class="fa-solid fa-users" style="font-size: 22px;"></i><div class="text"><p style="font-size: 14px;">Communities</p></div></li> -->
                 <li onclick="show_message()"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=linear"> <g id="email"> <path id="vector" d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z" stroke="#000000" stroke-width="1.9440000000000002" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> <path id="vector_2" d="M18.7698 7.7688L13.2228 12.0551C12.5025 12.6116 11.4973 12.6116 10.777 12.0551L5.22998 7.7688" stroke="#000000" stroke-width="1.9440000000000002" stroke-linecap="round"></path> </g> </g> </g></svg><div class="text"><p>Messages</p></div></li>
-                <li><i class="fa-regular fa-flag"></i><div class="text"><p>Flags</p></div></li>
+                <li><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 15L7 9" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M20.8333 9H18.2308C16.4465 9 15 10.3431 15 12C15 13.6569 16.4465 15 18.2308 15H20.8333C20.9167 15 20.9583 15 20.9935 14.9979C21.5328 14.965 21.9623 14.5662 21.9977 14.0654C22 14.0327 22 13.994 22 13.9167V10.0833C22 10.006 22 9.96726 21.9977 9.9346C21.9623 9.43384 21.5328 9.03496 20.9935 9.00214C20.9583 9 20.9167 9 20.8333 9Z" stroke="#FFFFFF" stroke-width="1.5"></path> <path d="M20.965 9C20.8873 7.1277 20.6366 5.97975 19.8284 5.17157C18.6569 4 16.7712 4 13 4L10 4C6.22876 4 4.34315 4 3.17157 5.17157C2 6.34315 2 8.22876 2 12C2 15.7712 2 17.6569 3.17157 18.8284C4.34315 20 6.22876 20 10 20H13C16.7712 20 18.6569 20 19.8284 18.8284C20.6366 18.0203 20.8873 16.8723 20.965 15" stroke="#FFFFFF" stroke-width="1.5"></path> <path d="M17.9912 12H18.0002" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><div class="text"><p>Wallet</p></div></li>
                 <li><svg style="width: 25px; height:25px;" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <path class="st0" d="M27.8,23.2l-1.1-1.7c-1.9-2.8-2.9-6.1-2.9-9.5c0-3.6-2.4-6.5-5.6-7.5C17.9,3.6,17,3,16,3s-1.9,0.6-2.2,1.5 c-3.2,1-5.6,3.9-5.6,7.5c0,3.4-1,6.7-2.9,9.5l-1.1,1.7C3.7,24,4.2,25,5.2,25h21.6C27.8,25,28.3,24,27.8,23.2z"></path> <path class="st0" d="M20,25c0,2.2-1.8,4-4,4s-4-1.8-4-4"></path> </g></svg><div class="text"><p>Notification</p></div></li>
                 <li onclick="show_prof()"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="6" r="4" stroke="#000" stroke-width="1.5"></circle> <path d="M20 17.5C20 19.9853 20 22 12 22C4 22 4 19.9853 4 17.5C4 15.0147 7.58172 13 12 13C16.4183 13 20 15.0147 20 17.5Z" stroke="#000" stroke-width="1.5"></path> </g></svg><div class="text"><p>Profile</p></div></li>
                 
@@ -714,7 +705,7 @@
                                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing Voluptatum nisi debitis mollitia nihil optio, voluptatibus molestias dicta expedita aliquam animi officia eaque.</p> -->
                                 </div>
                                 <div class="the-post">
-                                    <p style=" padding: 10px;">Hey <br><a href="#">@TweatFlash</a> <br>,I am looking to <a href="#">#connect</a> with peoplw who are interested in: <br><br><br>🌐 Web developement <br>🎨 Frontend <br>🦍 Backend <br> 📊 Data science <br>🔒 Cyber security
+                                    <p style=" padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aperiam atque doloremque. Illo rerum iusto cumque rem unde et, eum dolorem explicabo. Veritatis, provident fuga voluptatibus omnis vel eligendi temporibus?
                                     </p>
                                 </div>
                                 <div class="reactions">
@@ -1640,7 +1631,7 @@
                                 <p>Launch Site <i style="font-size: 14px; color: #4070f4;" class="fa-solid fa-arrow-up-right-from-square"></i></p>
                             </div>
                             <div class="bio">
-                                <p>Lorem ipsum dolor sit amet <a href="#" style="font-size: 14px;">#consectetur</a> adipisicing elit. Minus,<a href="#" style="font-size: 14px;">#voluptatum</a> hic numquam nisi velit iste mollitia amet molestias nostrum expedita eius. Explicabo itaque iste, <a href="#" style="font-size: 14px;">#mollitia enim</a> dolorem illum nihil libero?</p>
+                                <p>Lorem ipsum dolor sit amet <a href="#" style="font-size: 14px;">@consectetur</a> adipisicing elit. Minus,<a href="#" style="font-size: 14px;">@voluptatum</a> hic numquam nisi velit iste mollitia amet molestias nostrum expedita eius. Explicabo itaque iste, <a href="#" style="font-size: 14px;">@mollitia enim</a> dolorem illum nihil libero?</p>
                             </div>
                             
                         </div>
