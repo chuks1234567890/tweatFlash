@@ -96,9 +96,6 @@ const nav = document.querySelector(".navigation"),
   toggleBtn.addEventListener("click" , () =>{
     nav.classList.toggle("open");
   });
-nav_app.addEventListener("click",()=>{
-    document.querySelector(".center").classList.toggle("cool")
-})
 
 function show_prof(){
     document.querySelector(".main-posts").style.display='none'
