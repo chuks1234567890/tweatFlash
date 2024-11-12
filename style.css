@@ -42,13 +42,13 @@ body{
     --main-color2:#0D0D0D;
     /* --main-color2:#FFFFFF; */
     /* --border-color2:transparent; */
-    --border-color2:rgba(225,225,225,.01);
+    --border-color2:rgba(225,225,225,.1);
     /* 0.02 */
     --c161a22:#161a22;
     --c161a22b:rgba(0,0,0,.1);
     --text2:#e6edf3;
     /* --text2:#000; */
-    --span:#222;
+    --span:#111;
     --span2:#999;
     --post-color2:#111;
     --blue:#2f80ed;
